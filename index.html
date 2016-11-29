@@ -8,7 +8,6 @@
     <script src="javascripts/jQuery.js" type="text/javascript"></script>
     <script src="javascripts/markdown.min.js" type="text/javascript"></script>
     <title>shoutn95</title>
-
   </head>
   <body>
     <div id="contents"></div>
@@ -16,7 +15,7 @@
         function run(){
             jQuery.get('CONTENTS.md',function(data){
                 var target = $('#contents');
-                target.HTML = markdown.toHTML( data );
+                target.html(markdown.toHTML( data ));
             });
         }
         new run();
