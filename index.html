@@ -14,9 +14,9 @@
     <div id="contents"></div>
     <script type="text/javascript">
         function run(){
-            jQuery.get('HTML.md',function(data){
-                var target = document.getElementById('contents');
-                target.innerHTML = markdown.toHTML( data );
+            jQuery.get('CONTENTS.md',function(data){
+                var target = $('#contents');
+                target.HTML = markdown.toHTML( data );
             });
         }
         new run();
