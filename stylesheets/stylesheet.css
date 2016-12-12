@@ -2,6 +2,14 @@ body{
     margin:0px;
     background:#000;
     color:#efefef;
+}
+
+#page{
+    background:#000;
+    margin-top:22px;
+    margin-left:auto;
+    margin-right:auto;
+    width:540px;
     padding: 40px;
     overflow-x: hidden;
     -webkit-box-shadow:
@@ -31,6 +39,7 @@ body{
             inset #222222 0 0 0 17px,
             inset #111111 0 0 0 22px,
             inset #000000 0 0 0 23px;
+
 }
 #header{
     height:83px;
