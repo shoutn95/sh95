@@ -10,7 +10,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     width:600px;
-    padding: 40px;
+    padding: 20px;
     overflow-x: hidden;
     -webkit-box-shadow:
             inset #ffffff 0 0 0 5px,
@@ -43,24 +43,28 @@ body{
 }
 #header{
     height:83px;
+    margin-top:-8px;
 }
 
 #contents{
-    margin-left:20px;
+    margin-left:12px;
     margin-top:-22px;
 }
 h1{
-    font-family: "Times New Roman";
+    font-family: "Arial";
     font-size: 2em;
     line-height: 0.8em;
+    color:#9774cb;
+    font-style: italic;
 }
 p{
     margin-top:-10px;
     padding:0px;
-    font-family:Courier;
-    font-size:1.2em;
-    line-height: 0.9em;
-    width:80%;
+    font-family:"Times New Roman";
+    font-size:1.4em;
+    line-height: 1em;
+    width:90%;
+    font-style: italic;
 }
 
 .shoutn95{
