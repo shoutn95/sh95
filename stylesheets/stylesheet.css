@@ -1,11 +1,10 @@
 body{
     margin:0px;
-    background:#000 url("../images/71_background_800.gif");
+    background:#000;
     color:#efefef;
 }
 
 #page{
-    opacity: 0.8;
     background:#000;
     margin-top:22px;
     margin-left:auto;
