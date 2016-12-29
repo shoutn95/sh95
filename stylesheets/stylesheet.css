@@ -1,46 +1,15 @@
 body{
-    margin:0px;
+    margin:0;
     background:#000 url("../images/71800.gif");
     color:#efefef;
 }
 
 #page{
     background:#000;
-    opacity:0.7;
     margin-top:22px;
     margin-left:auto;
     margin-right:auto;
     width:600px;
-    padding: 20px;
-    overflow-x: hidden;
-    -webkit-box-shadow:
-            inset #ffffff 0 0 0 5px,
-            inset #aaaaaa 0 0 0 1px,
-            inset #999999 0 0 0 10px,
-            inset #666666 0 0 0 11px,
-            inset #444444 0 0 0 16px,
-            inset #222222 0 0 0 17px,
-            inset #111111 0 0 0 22px,
-            inset #000000 0 0 0 23px;
-    -moz-box-shadow:
-            inset #ffffff 0 0 0 5px,
-            inset #aaaaaa 0 0 0 1px,
-            inset #999999 0 0 0 10px,
-            inset #666666 0 0 0 11px,
-            inset #444444 0 0 0 16px,
-            inset #222222 0 0 0 17px,
-            inset #111111 0 0 0 22px,
-            inset #000000 0 0 0 23px;
-    box-shadow:
-            inset #ffffff 0 0 0 5px,
-            inset #aaaaaa 0 0 0 1px,
-            inset #999999 0 0 0 10px,
-            inset #666666 0 0 0 11px,
-            inset #444444 0 0 0 16px,
-            inset #222222 0 0 0 17px,
-            inset #111111 0 0 0 22px,
-            inset #000000 0 0 0 23px;
-
 }
 #header{
     height:83px;
@@ -55,12 +24,12 @@ h1{
     font-family: "Arial";
     font-size: 2em;
     line-height: 0.8em;
-    color: darkslateblue;
+    color:#55a532;
     font-style: italic;
 }
 p{
     margin-top:-10px;
-    padding:0px;
+    padding:0;
     font-family:"Times New Roman";
     font-size:1.4em;
     line-height: 1em;
