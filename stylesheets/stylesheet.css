@@ -25,4 +25,6 @@ p{
     font-size:1.4em;
     line-height: 1em;
     font-style: italic;
+    width:100px;
+    float:left;
 }
