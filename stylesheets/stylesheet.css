@@ -8,6 +8,8 @@ body{
 }
 
 #header{
+    height: 450px;
+    background:url('/images/IMG_20161229.jpg',no-repeat;);
 }
 
 #contents{
