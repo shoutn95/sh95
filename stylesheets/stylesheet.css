@@ -13,14 +13,20 @@ body{
     width: 970px;
     background-repeat: no-repeat;
 }
+
+#header a{
+    font-size:0.7em;
+}
 #contents{
 }
 
 h1{
-    font-family: "Arial";
+    font-family: "Times New Roman";
     font-size: 2em;
     color:#fff;
     font-style: italic;
+    margin:0px;
+    padding:0px;
 }
 p{
     font-family:"Times New Roman";
