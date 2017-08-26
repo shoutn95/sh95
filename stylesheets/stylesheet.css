@@ -9,9 +9,9 @@ body{
 
 #header{
     height: 450px;
-    background:url('/images/IMG_20161229.jpg',no-repeat;);
+    background:url('/images/IMG_20161229.jpg',no-repeat);
+    width:970px;
 }
-
 #contents{
 }
 
