@@ -8,14 +8,11 @@ body{
 }
 
 #header{
-    height: 450px;
-    background-image: url('../images/IMG_20161229.jpg');
-    width: 970px;
-    background-repeat: no-repeat;
-}
+    height: 150px;}
 
 #header a{
     font-size:0.7em;
+    margin-top:-10px;
 }
 #contents{
 }
