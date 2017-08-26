@@ -19,7 +19,6 @@ body{
 h1{
     font-family: "Arial";
     font-size: 2em;
-    line-height: 0.8em;
     color:#fff;
     font-style: italic;
 }
@@ -27,7 +26,4 @@ p{
     font-family:"Times New Roman";
     font-size:1.4em;
     line-height: 1em;
-    font-style: italic;
-    width:100px;
-    float:left;
 }
