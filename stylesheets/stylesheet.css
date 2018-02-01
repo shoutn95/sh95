@@ -10,7 +10,9 @@
     margin-right:auto;
 }
 
-h1{}
+h1{
+    text-decoration: underline;
+}
 
 h4{}
 
