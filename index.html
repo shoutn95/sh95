@@ -13,7 +13,7 @@
     <div id="contents"></div>
     <script type="text/javascript">
         function run(){
-            var md = window.markdownit('default',{html:false});
+            var md = window.markdownit('default',{html:true});
             jQuery.get('CONTENTS.md',function(data){
                 $('#contents').html(md.render( data ));
             });
