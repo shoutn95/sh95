@@ -5,7 +5,9 @@
 }
 
 #contents{
-    width: 50%;
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 h1{}
