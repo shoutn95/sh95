@@ -1,2 +1,2 @@
 # shoutn95
-Work in progress...
+https://shoutn95.github.io/sh95/
