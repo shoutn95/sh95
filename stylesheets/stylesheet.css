@@ -11,10 +11,12 @@
 }
 
 h1{
+    font-size:5vw;
     text-decoration: underline;
 }
 
 h4{
+    font-size: 2vw;
 }
 
 h4 a{
@@ -23,5 +25,5 @@ h4 a{
 }
 
 h5{
-    font-size:16px
+    font-size:1.2vw;
 }
