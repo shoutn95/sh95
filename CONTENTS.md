@@ -1,3 +1,4 @@
+![](images/photo-2.jpeg)
 ##### Cette nacelle est très bête, elle m'attrape en m'épatant. Appât de goujons ou d'ablettes, je pensais que c'était ma fête. 
 ##### <i>A l'ombre de "l'épine-blanche", la floraison épouse la fragrance printanière, où succombe comme un chuchotement lointain, la senteur des douceurs amers. Et l'astre échauffe, comme un parent lointain, le chef de sa hutte, où reposent, les douceurs du bouquet éclatant.</i>
 ![]( images/photo.jpeg)
