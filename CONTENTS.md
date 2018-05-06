@@ -1,3 +1,4 @@
+![](images/photo-3.jpeg)
 ##### Poli. Il arpente l'Indolence, s'amuse de l'Angélique, chasse le Monarque, égratigne l'Enchevêtré.
 ![](images/photo-2.jpeg)
 ##### Cette nacelle est très bête, elle m'attrape en m'épatant. Appâts de goujons ou d'ablettes, je pensais que c'était ma fête. 
