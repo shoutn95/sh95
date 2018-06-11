@@ -1,4 +1,3 @@
-![](images/photo-4.jpeg)
 ##### Les musiciens des rues chantent des airs enjoués, les passants ravis leur offrent des mines réjouis, donnant la pièce aussi pour ces temps difficiles.
 ##### La politesse arpente l'Indolence, s'amuse de l'Angélique, chasse le Monarque, égratigne l'Enchevêtré.
 ![](images/photo-2.jpeg)
