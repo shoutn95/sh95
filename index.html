@@ -17,7 +17,7 @@
         function run(){
             var md = window.markdownit('default',{html:true});
             jQuery.get('CONTENTS.md',function(data){
-                $('#contents').html(md.render( data ));
+                $('contents').html(md.render( data ));
             });
         }
         new run();
