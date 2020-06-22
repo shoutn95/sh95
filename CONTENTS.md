@@ -3,10 +3,13 @@
 just go here</h1>
 
 <a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop"> my youtube  chanel</a>
+<a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop"> my youtube  chanel</a><br />
+<a href=https://www.instagram.com/shoutn95/">my Instagram</a>
+<a href="" > my soundcloud</a>
 
-<h2> Applications that I use for making music with Ipad:IOS</h2>
+<h2> First question What</h2>
 <h3>
-<b><i>Instruments / synthesizer</i></b><br />
+<b><i>Instruments / synthesizer</i></b><br /><br />  
 Moog Model 15 /Moog<br />
 Moog model D /Moog<br />
 Zeeon /Beepstreet<br />
