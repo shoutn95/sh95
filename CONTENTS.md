@@ -8,6 +8,8 @@ just go here</h1>
 <h3>
 Instruments :
 Moog Model 15
+Moog model D
+Zeeon
 
 </h3>
 
