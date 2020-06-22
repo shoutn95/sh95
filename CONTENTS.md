@@ -10,6 +10,7 @@ Instruments :
 Moog Model 15
 Moog model D
 Zeeon
+Ripplemaker Dram Bos
 
 </h3>
 
