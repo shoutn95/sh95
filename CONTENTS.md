@@ -6,13 +6,15 @@ just go here</h1>
 
 <h2> Applications that I use for making music with Ipad:IOS</h2>
 <h3>
-<b>Instruments / synthesizer </b><br />
+<b><i>Instruments / synthesizer</i></b><br />
 Moog Model 15 /Moog<br />
 Moog model D /Moog<br />
 Zeeon /Beepstreet<br />
+Sunrizer / Beepstreet<br />
 Ripplemaker /Bram Bos<br />
 Ruismaker FM / Bram Bos<br />
-Ruismaker Noir <br />
-
+Ruismaker Noir / Bram Bos <br />
+Axon 2 /AudioDamage
 </h3>
 
+€
