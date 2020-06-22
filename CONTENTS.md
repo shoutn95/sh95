@@ -7,10 +7,10 @@ just go here</h1>
 <h2> Applications that I use for making music with Ipad:IOS</h2>
 <h3>
 Instruments :
-Moog Model 15
-Moog model D
-Zeeon
-Ripplemaker Dram Bos
+Moog Model 15 /Moog
+Moog model D /Moog
+Zeeon 
+Ripplemaker /Dram Bos
 
 </h3>
 
