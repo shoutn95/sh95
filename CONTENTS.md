@@ -1,5 +1,4 @@
-<h1>Nothing new , for more
-just go here</h1>
+<h1>Nothing new , for more just go here</h1>
 <h2>
 <a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop">Youtube</a><br />
 <a href="https://www.instagram.com/shoutn95">Instagram</a><br />
