@@ -3,12 +3,12 @@
 just go here</h1>
 
 <a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop">youtube</a><br />
-<a href="https://www.instagram.com/shoutn95">Instagram</a>
+<a href="https://www.instagram.com/shoutn95">Instagram</a><br />
 <a href="https://soundcloud.com/shoutn95">Soundcloud</a>
 
 <h2> First question  : What do I need ?</h2>
 <h3>
-<b><i>Instruments / synthesizer</i></b><br /><br />  
+<u><i>Instruments or synthesizer</i></u><br />
 Moog Model 15 /Moog<br />
 Moog model D /Moog<br />
 Zeeon /Beepstreet<br />
@@ -18,5 +18,3 @@ Ruismaker FM / Bram Bos<br /> Fm synthesizer
 Ruismaker Noir / Bram Bos <br /> Drum machine
 Axon 2 /AudioDamage
 </h3>
-
-€
