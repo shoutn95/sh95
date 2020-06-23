@@ -2,10 +2,9 @@
 
 just go here</h1>
 
-<a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop"> my youtube  chanel</a>
-<a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop"> my youtube  chanel</a><br />
-<a href=https://www.instagram.com/shoutn95/">my Instagram</a>
-<a href="" > my soundcloud</a>
+<a href="https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA?app=desktop">youtube</a><br />
+<a href="https://www.instagram.com/shoutn95">Instagram</a>
+<a href="https://soundcloud.com/shoutn95">Soundcloud</a>
 
 <h2> First question  : What do I need ?</h2>
 <h3>
