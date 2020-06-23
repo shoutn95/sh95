@@ -6,8 +6,8 @@
 
 <h2> First question  : What do I need ?</h2>
 <h3>
-<u><i>Instruments or synthesizer</i></u><br />
-Moog Model 15 /Moog<br />
+<h2><i>Instruments or synthesizer</i></h2><br />
+<p>Moog Model 15 /Moog<br />
 Moog model D /Moog<br />
 Zeeon /Beepstreet<br />
 Sunrizer / Beepstreet<br />
@@ -15,4 +15,5 @@ Ripplemaker /Bram Bos : semi modular<br />
 Ruismaker FM / Bram Bos<br /> Fm synthesizer
 Ruismaker Noir / Bram Bos <br /> Drum machine
 Axon 2 /AudioDamage
+</p>
 </h3>
