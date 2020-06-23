@@ -6,7 +6,7 @@
 <a href="https://soundcloud.com/shoutn95">Soundcloud</a></h2>
 
 <h2><u>First question  : What do I need ?</u></h2>
-<h2><i>Instruments or synthesizer</i></h2>
+<h2><i>Instruments or synthesizers AUV3</i></h2>
 <h2>
 Moog Model 15 /Moog<br />
 Moog model D /Moog<br />
