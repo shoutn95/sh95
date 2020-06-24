@@ -15,17 +15,19 @@
     <div id="contents"></div>
     <script type="text/javascript">
         function run(){
-            var md = window.markdownit('default',{html:true});
             var yt=(
             ‘IxxvpEKCF7U’,
             ’e2H7bER9BXU’
             );
             var video=yt[Math.floor(Math.random()*yt.length)];
             
+            var md = window.markdownit('default',{html:true});
+            
+            
             
             
             jQuery.get('CONTENTS.md',function(data){
-                $('#contents').html(md.render( data,video));
+                $('#contents').html(md.render( data ));
             });
         }
         new run();
