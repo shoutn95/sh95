@@ -1,9 +1,6 @@
 
 <script type="text/javascript">
-      var yt=(
-            ‘IxxvpEKCF7U’,
-            ’e2H7bER9BXU’
-            );
+      var yt=(‘IxxvpEKCF7U’,’e2H7bER9BXU’);
             var video=yt[Math.floor(Math.random()*yt.length)];
 alert(video);
 </script>
