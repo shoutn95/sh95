@@ -1,3 +1,13 @@
+
+<script type="text/javascript">
+      var yt=(
+            ‘IxxvpEKCF7U’,
+            ’e2H7bER9BXU’
+            );
+            var video=yt[Math.floor(Math.random()*yt.length)];
+            
+</script>
+
 <h1>Welcome</h1>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ <script>document.write(video);</script>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
