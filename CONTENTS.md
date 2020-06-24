@@ -1,7 +1,7 @@
 
 <script type="text/javascript">
       var yt=(‘IxxvpEKCF7U’,’e2H7bER9BXU’);
-            var video=yt[Math.floor(Math.random()*yt.length()];
+            var video=Math.floor(Math.random()*yt.length())];
 </script>
 
 <h1>Welcome</h1>
