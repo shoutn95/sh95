@@ -5,7 +5,7 @@
             ’e2H7bER9BXU’
             );
             var video=yt[Math.floor(Math.random()*yt.length)];
-            
+alert(video);
 </script>
 
 <h1>Welcome</h1>
