@@ -3,13 +3,27 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>shoutn95</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"> 
     <script src="javascripts/jQuery.js" type="text/javascript"></script>
+    <script src="javascripts/markdown-it.min.js" type="text/javascript"></script>
+    <title>shoutn95</title>
 </head>
 <body>
-<script type="text/ javascript">
-    var rand=Math.random;    
-    load("https://shoutn95.github.io/sh95/index_.html?ver="+rand);
-</script>
+<div id="page">
+    <div id="head"></div>
+    <div id="contents"></div>
+    <script type="text/javascript">
+        function run(){
+            var rand=Math.random();
+            var md = window.markdownit("default",{html:true});
+            jQuery.get("CONTENTS.md?ver="+rand,function(data){
+                $("#contents").html(md.render( data ));
+            });
+        }
+       new run();
+    </script> 
+    <div id="footer"></ div>
+</div>
 </body>
 </html>
+
