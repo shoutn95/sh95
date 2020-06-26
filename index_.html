@@ -14,14 +14,16 @@
     <div id="contents"></div>
     <script type="text/javascript">
         function run(){
+            $("#footer").html=$_GET["video"];
             var md = window.markdownit("default",{html:true});
-            jQuery.get("CONTENTS.md",function(data){
+            jQuery.get("CONTENTS.md?video="+""$_GET['video']+"",function(data){
                 $("#contents").html(md.render( data ));
             });
         }
        new run();
     </script> 
-    <div id="footer"></ div>
+    <div id="footer"></script></div>
+    x
 </div>
 </body>
 </html>
