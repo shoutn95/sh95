@@ -14,7 +14,6 @@
     <div id="contents"></div>
     <script type="text/javascript">
         function run(){
-            $("#footer").html("toto");
             var md = window.markdownit("default",{html:true});
             jQuery.get("CONTENTS.md",function(data){
                 $("#contents").html(md.render( data ));
