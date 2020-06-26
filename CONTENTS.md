@@ -1,4 +1,4 @@
-<h1>Welcome</h1>
+<h1>Welcome!</h1>
 <iframe width ='560' height='315' src='https://www.youtube.com/embed/'<script>+"'"+decodeURI($_GET['video'])+' + </script> frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe >
 
 <h2>Nothing new , for more just go here</h2>
