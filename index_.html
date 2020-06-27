@@ -16,35 +16,20 @@
 <div id="page">
     <div id="head">
         <h1>Welcome</h1>
-        <div id="Yt"></div>    
+        <div id="front"></div>    
     </div>
     <div id="contents"></div>
     <script type="text/javascript">
     
         function run(){
         
-            function GetURLParameter(sParam) 
-            {
-            var sPageURL = window.location.search.substring(1);
-            var sURLVariables=sPageURL.split('&');
-            for (var i=0;i<sURLVariables.length;i++)
-            {
-                var sParameterName =sURLVariables[i].split('=');
-                if (sParameterName[0]==sParam)
-                {
-                    return sParameterName[1];
-                }
-            }
-            
-            }
+            $("#front").load("front.html");;
             
             var md = window.markdownit("default",{html:true});
             jQuery.get("CONTENTS.md",function(data){
                 $("#contents").html(md.render( data ));
             });
-            var video="<iframe width='560\' height='315' src='https://www.youtube.com/embed/"+GetURLParameter("video")+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
-            
-            $("#Yt").html(video);
+  
         }
        new run();
     </script> 
