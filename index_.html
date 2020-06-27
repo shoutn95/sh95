@@ -42,9 +42,11 @@
             jQuery.get("CONTENTS.md",function(data){
                 $("#contents").html(md.render( data ));
             });
-            var video="<iframe width='560\' height='315' src='https://www.youtube.com/embed/"+GetURLParameter('video')+"frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+            var video="<iframe width='560\' height='315' src='https://www.youtube.com/embed/"+GetURLParameter("video")+"frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
             
-            $("#Yt").html(video); 
+            //$("#Yt").html(video);
+            alert(video); 
+            
         }
        new run();
     </script> 
