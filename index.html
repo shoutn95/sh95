@@ -23,8 +23,15 @@
             "MOMu-K1lfew"
             ];
             
+            If (GetURLParameter('page')) {
+            
+                var contentPage = GetURLParameter('page');
+            
+             } else {
+                var contentPage = "0" }
+            
             var rand=Math.floor(Math.random()*vid.length);
-            window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+ vid[rand]+"&page=" + GetURLParameter('page');
+            window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+ vid[rand]+"&page=" + contentPage;
         }
         
         new run();

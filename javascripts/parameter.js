@@ -2,13 +2,13 @@ function GetURLParameter(sParam)
             
             {
             
-            if(!sParam){
+            //if(!sParam){
             
-               return "0"
+               //return "0"
                 
-               } else 
+               //} else 
             
-               { 
+               //{ 
             
             
                     var sPageURL = window.location.search.substring(1);
@@ -24,5 +24,5 @@ function GetURLParameter(sParam)
                          }
                     }
                     
-               } 
+               //} 
             }
