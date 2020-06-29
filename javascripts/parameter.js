@@ -8,7 +8,7 @@ function GetURLParameter(sParam)
                 var sParameterName =sURLVariables[i].split('=');
                 if (sParameterName[0]==sParam)
                 {
-                  if { !sParameter[1] ; return "0";
+                  if { !sParameterName[1] ; return "0";
                   
                   } else {
                   
