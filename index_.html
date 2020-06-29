@@ -27,7 +27,7 @@
             $("#front").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+GetURLParameter("video")+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"); 
                        
              var md = window.markdownit("default",{html:true});
-            jQuery.get("CONTENTS" +. GetURLParameter('page') + " .md",function(data){
+            jQuery.get("CONTENTS" + GetURLParameter('page') + ".md",function(data){
                 $("#contents").html(md.render( data ));
             });
   

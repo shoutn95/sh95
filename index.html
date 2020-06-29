@@ -22,13 +22,12 @@
             "e2H7bER9BXU",
             "MOMu-K1lfew"
             ];
-            var contentPage = GetURLParameter('page');
-            if (contentPage == undefined) 
-            {
-                contentPage = "0";
-            
-             }
-            
+            if (!GetURLParameter('page')) {
+                var contentPage = "0";
+            }else{
+                var contentPage = GetURLParameter('page');
+            }
+                       
             var rand=Math.floor(Math.random()*vid.length);
             window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+ vid[rand]+"&page=" + contentPage;
         }
