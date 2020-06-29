@@ -17,9 +17,10 @@
 
 function run(){
 
-            var json = jQuery.fromJSON("https://shoutn95.github.io/sh95/youtube.json");
-            alert(json);
-            
+            let xhr = new XMLHttpRequest();
+            xhr.open("GET","https://shoutn95.github.io/sh95/youtube.json");
+            xhr.responseType="json"; 
+            this.document.write(xhr.send());
             
         
       
