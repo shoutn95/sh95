@@ -16,12 +16,12 @@
     <script type="text/javascript">
 
 function run(){
-      
-            return $.load("https://shoutn95.github.io/sh95/youtube.json",function(){
-      
-      
-      
-            });
+
+            var json = _$.getJSON("https://shoutn95.github.io/sh95/youtube.json");
+            var vid = eval("(" +json.responseText + ")");
+            document.write(vid);
+            
+            
         
       
             
@@ -37,7 +37,7 @@ function run(){
         
         new run();
     </script> 
-    <div id="footer"><a href="">1</a> | <a href="" >2</a></div>
+    <div id="footer"><a href="&page=0">1</a> | <a href="&page=1">2</a></div>
     
 </div>
 </body>
