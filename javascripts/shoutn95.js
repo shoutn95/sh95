@@ -23,16 +23,16 @@ function GetRandomVideoYT()
 {
       xhr = new XMLHttpRequest();
       xhr.open("GET","https://shoutn95.github.io/sh95/youtube.json");
-      xhr.responseType="json"; 
+      xhr.responseType="text"; 
       xhr.send();
       xhr.onload = function() {
-            var obj =  xhr.response;
-            var myYouTubeVids = obj.myYouTube;
-            var rand=Math.floor(Math.random()*myYouTubeVids.length);
-            //console.log("toto");
-            return myYouTubeVids[rand];
+        var obj =  xhr.response;
+        var myYouTubeVids = obj["myYouTube"];
+        var rand=Math.floor(Math.random()*myYouTubeVids.length);
+        var myVideo = myYouTubeVids[rand];
             
-            }
+    }
+
 }
 
 
