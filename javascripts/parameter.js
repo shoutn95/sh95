@@ -18,3 +18,20 @@ function GetURLParameter(sParam)
       } else { return "0"; }
       
 }
+
+function GetRandomVideoYT()
+{
+      xhr = new XMLHttpRequest();
+      xhr.open("GET","https://shoutn95.github.io/sh95/youtube.json");
+      xhr.responseType="json"; 
+      xhr.send();
+      xhr.onload = function() {
+            var obj =  xhr.response;
+            console.log(obj);
+            
+            }
+}
+
+
+
+
