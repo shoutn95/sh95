@@ -27,7 +27,10 @@ function GetRandomVideoYT()
       xhr.send();
       xhr.onload = function() {
             var obj =  xhr.response;
-            console.log(obj);
+            var myYouTubeVids = obj.myYouTube;
+            var rand=Math.floor(Math.random()*myYouTubeVids.length);
+            //console.log("toto");
+            return myYouTubeVids[rand];
             
             }
 }

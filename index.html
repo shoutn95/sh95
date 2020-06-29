@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"> 
     <script src="javascripts/jQuery.js" type="text/javascript"></script>
-    <script src="javascripts/parameter.js" type="text/javascript"></script>
+    <script src="javascripts/shoutn95.js" type="text/javascript"></script>
     <script src="javascripts/markdown-it.min.js" type="text/javascript"></script>
     <title>shoutn95</title>
 </head>
@@ -16,24 +16,18 @@
     <script type="text/javascript">
 
 function run()
-{
-
-            
-        
-/*      
+{      
             
             if (!GetURLParameter('page')) {
                 var contentPage = 0;
             }else{
                 var contentPage = GetURLParameter('page');
             }
-                       
-            var rand=Math.floor(Math.random()*vid.length);
-            window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+ vid[rand]+"&page=" + contentPage;
-*/        
+            window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+   GetRandomVideoYT(); +"& page=" + contentPage;       
 }
+//console.log(GetRandomVideoYT());
         
-        new run();
+         new run();
     </script> 
     <div id="footer"></div>
     
