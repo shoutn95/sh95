@@ -17,9 +17,8 @@
 
 function run(){
 
-            var json = _$.getJSON("https://shoutn95.github.io/sh95/youtube.json");
-            var vid = eval("(" +json.responseText + ")");
-            $("#footer").html(vid);
+            var json = jQuery.fromJSON("https://shoutn95.github.io/sh95/youtube.json");
+            alert(json);
             
             
         
