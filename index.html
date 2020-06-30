@@ -13,17 +13,21 @@
 <div id="page">
     <div id="head"></div>
     <div id="contents"></div>
-    <script type="text/javascript">
-
+    <script type="text/javascript">        
 function run()
 {
-    if (!GetURLParameter('page')) {
+    //console.log("CONTENT"+GetURLParameter(1));
+    //console.log("VIDEO"+GetRandomVideoYT());
+/*
+    if (!window.GetURLParameter('page')) {
         var contentPage = 0;
     }else{
-        var contentPage = GetURLParameter('page');
+        var contentPage = window.GetURLParameter('page');
     }
-//console.log(contentPage);     
-    window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+GetRandomVideoYT()+"&page="+contentPage;       
+*/         
+    
+    window.location.href = "https://shoutn95.github.io/sh95/index_.html?video="+GetRandomVideoYT();+"&page=0";
+
 }
         
 new run();
