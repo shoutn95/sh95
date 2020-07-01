@@ -18,20 +18,14 @@
     </div>
     <div id="contents"></div>
 <script type="text/javascript">
-function run()
-{
-     //var front= new shoutn95();
-     shoutn95.randomVideoYT();
+function run(){
+    shoutn95.randomVideoYT();
     
-
-/*                       
-             var md = window.markdownit("default",{html:true});
-            jQuery.get("CONTENTS" +GetURLParameter('page') + ".md",function(data){
+    var md = window.markdownit("default",{html:true});
+    jQuery.get("CONTENTS" +shoutn95.GetURLParameter('page') + ".md",
+        function(data){
                 $("#contents").html(md.render( data ));
-            });
-  
-        }
-*/
+        });
 }
 new run();       
 </script>

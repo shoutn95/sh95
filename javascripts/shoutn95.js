@@ -47,7 +47,7 @@ shoutn95._getTheVideo=function(param=null){
 }
 
 
-/*window.GetURLParameter = function(sParam) 
+shoutn95.GetURLParameter = function(sParam) 
 {
     
       if (sParam) {            
@@ -68,32 +68,6 @@ shoutn95._getTheVideo=function(param=null){
       
 }
 
-var randomVideoYT={
-      json:"https://shoutn95.github.io/sh95/youtube.json",
-      yT:"",
-      myYouTubeVid:"",
-      rand:"",
-      get:function(){
-            var xhr = new XMLHttpRequest();
-            xhr.open("GET",this.json,true);
-            xhr.send();
-            xhr.onload = function() {
-               var obj = JSON.parse(xhr.responseText); 
-               this.myYouTubeVid=obj.myYouTube;
-                              this.rand=Math.floor(Math.random()*this.myYouTubeVid.length);
-               
-               
-               
-               
-                  
-               }
-               
-               console.log(this.myYouTubeVid[this.rand]);
-               
-               return this.yT="<iframe width='560' height='315' src='https://www.youtube.com/embed/"+this.myYouTubeVid[this.rand]+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
-               
-               
-            
-      }*/
+
       
       
