@@ -4,12 +4,9 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <script src="javascripts/shoutn95.js" type="text/javascript"></script>
-    <script src="javascripts/jQuery.js" type="text/javascript"></script>
-    <script src="javascripts/markdown-it.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    
-    </script>
+    <script type="text/javascript" src="javascripts/jQuery.js" ></script>
+    <script type="text/javascript" src="javascripts/markdown-it.min.js"></script>
+    <script type="text/javascript" src="javascripts/shoutn95.js" ></script>
     
     <title>shoutn95</title>
 </head>
@@ -20,22 +17,24 @@
         <div id="front"></div>    
     </div>
     <div id="contents"></div>
-    <script type="text/javascript">
+<script type="text/javascript">
+function run()
+{
+     //var front= new shoutn95();
+     shoutn95.randomVideoYT();
     
-        function run(){        
-            
-            $("#front").html("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+window.GetRandomVideoYT()+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"); 
-// console.log(window.GetURLParameter('page'));                       
+
+/*                       
              var md = window.markdownit("default",{html:true});
             jQuery.get("CONTENTS" +GetURLParameter('page') + ".md",function(data){
                 $("#contents").html(md.render( data ));
             });
   
         }
-        
-       new run();
-        
-    </script>
+*/
+}
+new run();       
+</script>
      
     <div id="footer"></div>
 </div>

@@ -1,4 +1,53 @@
-function GetURLParameter(sParam) 
+videoYouTube="";
+obj=null;
+xhr = new XMLHttpRequest();
+frame="";
+ 
+var shoutn95 = function() {}
+
+shoutn95.json = "https://shoutn95.github.io/sh95/youtube.json";
+
+shoutn95.loadFrame=function(video)
+{
+var youTube = video; 
+            return("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+ youTube +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+            
+}
+      
+shoutn95.randomVideoYT=function()
+{
+   xhr.open("GET",this.json,true);
+   xhr.send();
+   xhr.onload = function() {
+   
+videoYouTube=shoutn95._getTheVideo(shoutn95.parseJSON());
+      $("#front").html(shoutn95.loadFrame(videoYouTube));
+         }                     
+}
+
+shoutn95.parseJSON=function()
+{
+   //console.log(xhr.responseText);
+   return JSON.parse(xhr.responseText).myYouTube;
+   
+}
+
+shoutn95._getTheVideo=function(param=null){
+    if (param){
+      rand=Math.floor(Math.random()*param.length);
+      //console.log(rand);
+      return videoYouTube=param[rand];
+      } else {
+         return videoYouTube ;
+      
+      }
+   
+
+
+}
+
+
+/*window.GetURLParameter = function(sParam) 
 {
     
       if (sParam) {            
@@ -19,26 +68,32 @@ function GetURLParameter(sParam)
       
 }
 
-function GetRandomVideoYT()
-{      
-      
-      return "MOMu-K1lfew";
-      
-       /*var xhr = new XMLHttpRequest();
-      xhr.open("GET","https://shoutn95.github.io/sh95/youtube.json");
-      xhr.responseType="json"; 
-      xhr.send();
-      xhr.onload = function() {
-            var obj = xhr.response; 
-            var myYouTubeVid=obj.myYouTube;
-            var rand=Math.floor(Math.random()*myYouTubeVid.length);
-            console.log(myYouTubeVid[rand]); 
-            return myYouTubeVid[rand];
-            }*/
+var randomVideoYT={
+      json:"https://shoutn95.github.io/sh95/youtube.json",
+      yT:"",
+      myYouTubeVid:"",
+      rand:"",
+      get:function(){
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET",this.json,true);
+            xhr.send();
+            xhr.onload = function() {
+               var obj = JSON.parse(xhr.responseText); 
+               this.myYouTubeVid=obj.myYouTube;
+                              this.rand=Math.floor(Math.random()*this.myYouTubeVid.length);
+               
+               
+               
+               
+                  
+               }
+               
+               console.log(this.myYouTubeVid[this.rand]);
+               
+               return this.yT="<iframe width='560' height='315' src='https://www.youtube.com/embed/"+this.myYouTubeVid[this.rand]+"' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+               
+               
             
-        
-}
-
-
-
-
+      }*/
+      
+      
