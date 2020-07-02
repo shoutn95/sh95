@@ -3,7 +3,7 @@ obj=null;
 
 var shoutn95 = function() {}
 
-shoutn95.json = "../init.json";
+shoutn95.json = "https://shoutn95.github.io/sh95/init.json";
 
 shoutn95.loadFront=function(video)
 {
