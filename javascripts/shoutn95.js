@@ -1,3 +1,4 @@
+
 obj=null;
 
 var shoutn95 = function() {}
