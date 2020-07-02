@@ -5,7 +5,7 @@ frame="";
  
 var shoutn95 = function() {}
 
-shoutn95.json = "https://shoutn95.github.io/sh95/youtube.json";
+shoutn95.json = "https://shoutn95.github.io/sh95/init.json";
 
 shoutn95.loadFrame=function(video)
 {
