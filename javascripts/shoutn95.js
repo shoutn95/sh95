@@ -1,49 +1,75 @@
-videoYouTube="";
 obj=null;
-xhr = new XMLHttpRequest();
-frame="";
- 
+
 var shoutn95 = function() {}
 
-shoutn95.json = "https://shoutn95.github.io/sh95/init.json";
+shoutn95.json = "../init.json";
 
-shoutn95.loadFrame=function(video)
+shoutn95.loadFront=function(video)
 {
-var youTube = video; 
-            return("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+ youTube +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+   return("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
             
 }
+
+shoutn95.createlinksToContent=function(contents){
+
+   var links=[];
+   for(i=0;i<contents;i++){      
+      links.push("<a href='/?page="+i+"'>"+i+"</a>");   
+   }
+   
+   this.foo=links.join("|");
+   return this.foo;
+
+}
       
-shoutn95.randomVideoYT=function()
+shoutn95.loadFrontJSONform=function()
 {
+   xhr = new XMLHttpRequest();
    xhr.open("GET",this.json,true);
    xhr.send();
    xhr.onload = function() {
-   
-videoYouTube=shoutn95._getTheVideo(shoutn95.parseJSON());
-      $("#front").html(shoutn95.loadFrame(videoYouTube));
-         }                     
+      video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());
+      $("#front").html(shoutn95.loadFront(video));
+       }
 }
 
-shoutn95.parseJSON=function()
+shoutn95.loadFooterJSONcontent=function()
 {
-   //console.log(xhr.responseText);
-   return JSON.parse(xhr.responseText).myYouTube;
+   xhr2 = new XMLHttpRequest();
+   xhr2.open("GET",this.json,true);
+   xhr2.send();
+   xhr2.onload = function() {
+      content = shoutn95._getCountElementFromJSON(shoutn95.parseLinksJSON());
+      $("#footer").html(shoutn95.createlinksToContent(content));
+      }
+}
+
+shoutn95.parseFrontJSON=function()
+{
+   return JSON.parse(xhr.responseText);
    
 }
 
-shoutn95._getTheVideo=function(param=null){
-    if (param){
-      rand=Math.floor(Math.random()*param.length);
-      //console.log(rand);
-      return videoYouTube=param[rand];
-      } else {
-         return videoYouTube ;
-      
-      }
+shoutn95.parseLinksJSON=function()
+{
+   return JSON.parse(xhr2.responseText);
    
+}
 
+shoutn95._getRandomElementFromJSON=function(param=null){
+//console.log(param["myContents"]);
+    if (param["myYouTube"]){
+      vidsFromYouTube = param["myYouTube"];
+      rand=Math.floor(Math.random()*vidsFromYouTube.length);
+      return video=vidsFromYouTube[rand]; 
+      }
+}
 
+shoutn95._getCountElementFromJSON=function(param=null){
+   if(param["myContents"]) {
+   myContentPages = param["myContents"];
+      return myContentPages.length;
+   }
 }
 
 
@@ -64,10 +90,7 @@ shoutn95.GetURLParameter = function(sParam)
             
             
       } else { return "0"; }
-      
-      
+
 }
-
-
       
       

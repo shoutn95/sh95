@@ -10,7 +10,7 @@
     
     <title>shoutn95</title>
 </head>
-<body>
+<body onload="shoutn95.loadFrontJSONform();">
 <div id="page">
     <div id="head">
         <h1>Welcome</h1>
@@ -18,11 +18,11 @@
     </div>
     <div id="contents"></div>
 <script type="text/javascript">
+
 function run(){
-    shoutn95.randomVideoYT();
     
     var md = window.markdownit("default",{html:true});
-    jQuery.get("CONTENTS" +shoutn95.GetURLParameter('page') + ".md",
+    jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md",
         function(data){
                 $("#contents").html(md.render( data ));
         });
@@ -30,9 +30,11 @@ function run(){
 new run();       
 </script>
      
-    <div id="footer">
-        <h2><a href="">1</a>|</h2>
-    </div>
+    <div id="footer"></div>
+    
+<script type="text/javascript">
+    shoutn95.loadFooterJSONcontent();
+</script>
 </div>
 </body>
 </html>
