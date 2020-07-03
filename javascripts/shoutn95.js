@@ -41,12 +41,12 @@ shoutn95.loadFrontJSONform=function()
 
 shoutn95.loadFooterJSONcontent=function()
 {
-   xhr2 = new XMLHttpRequest();
-   xhr2.open("GET",this.json,true);
-   xhr2.send();
-   xhr2.onload = function() {
-      content = shoutn95._getCountElementFromJSON(shoutn95.parseLinksJSON());
-      $("#footer").html(shoutn95.createlinksToContent(content));
+   xhr_ = new XMLHttpRequest();
+   xhr_.open("GET",this.json,true);
+   xhr_.send();
+   xhr_.onload = function() {
+         content = shoutn95._getCountElementFromJSON(shoutn95.parseLinksJSON());
+         $("#footer").html(shoutn95.createlinksToContent(content)); 
       }
 }
 
@@ -58,7 +58,7 @@ shoutn95.parseFrontJSON=function()
 
 shoutn95.parseLinksJSON=function()
 {
-   return JSON.parse(xhr2.responseText);
+   return JSON.parse(xhr_.responseText);
    
 }
 
@@ -81,22 +81,26 @@ shoutn95._getCountElementFromJSON=function(param=null){
 
 shoutn95.GetURLParameter = function(sParam) 
 {
+   if (sParam){
     
-      if (sParam) {            
-            var sPageURL = window.location.search.substring(1);
-            var sURLVariables=sPageURL.split('&');
-            for (var i=0;i<sURLVariables.length;i++)
-            {
-                var sParameterName =sURLVariables[i].split('=');
-                if (sParameterName[0]==sParam)
-                {
-                    return sParameterName[1];
-                }
-            }
+      sPageURL = window.location.search.substring(1);
+      var sURLVariables=sPageURL.split('&');
+      for (var i=0;i<sURLVariables.length;i++)
+      {
+         var sParameterName =sURLVariables[i].split('=');
+         if (sParameterName[0]==sParam)
+         {
+            return sParameterName[1];
+         }else{
+            return 0;
+         }
+         
+         
+      }
             
-            
-      } else { return "0"; }
+      }
 
 }
+
       
       
