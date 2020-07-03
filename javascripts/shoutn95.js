@@ -91,10 +91,8 @@ shoutn95.GetURLParameter = function(sParam)
          if (sParameterName[0]==sParam)
          {
             return sParameterName[1];
-         }else{
-            return 0;
-         }
          
+         } return 0;
          
       }
             
