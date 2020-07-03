@@ -19,6 +19,16 @@ a.pages{
 color:#666;
 font-weight:bold;
 }
+
+h3{
+font-family:"Times";
+font-size:20px;
+font-weight:normal;
+text-align:"Justify";
+color:#666;
+margin-top:-20px;
+}
+
 h2{font-size:30px;
 text-align:left;
 letter-spacing:0px;
