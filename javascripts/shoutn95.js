@@ -4,7 +4,7 @@ obj=null;
 var shoutn95 = function() {}
 
 shoutn95.url = "https://shoutn95.github.io/sh95/"
-shoutn95.json = this.url+"init.json";
+shoutn95.json = "init.json";
 
 shoutn95.loadFront=function(video)
 {
