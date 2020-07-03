@@ -3,7 +3,8 @@ obj=null;
 
 var shoutn95 = function() {}
 
-shoutn95.json = "https://shoutn95.github.io/sh95/init.json";
+shoutn95.url = "https://shoutn95.github.io/sh95/"
+shoutn95.json = "../init.json";
 
 shoutn95.loadFront=function(video)
 {
@@ -15,7 +16,7 @@ shoutn95.createlinksToContent=function(contents){
 
    var links=[];
    for(i=0;i<contents;i++){      
-      links.push("<a href='/?page="+i+"'>"+i+"</a>");   
+      links.push("<a href='"+this.url+"?page="+i+"'>"+i+"</a>");   
    }
    
    this.foo=links.join("|");
