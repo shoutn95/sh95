@@ -14,11 +14,15 @@ shoutn95.loadFront=function(video)
 
 shoutn95.createlinksToContent=function(contents){
 
+   var currentPage =window.location.search.substring(6);
+
    var links=[];
-   for(i=0;i<contents;i++){      
-      links.push("<a href='index.html?page="+i+"'>"+i+"</a>");   
+   for(i=0;i<contents;i++){
+   if(currentPage==i){
+      links.push("<a class='currentPage' href='index.html?page="+i+"'>"+i+"</a>");   
+      } else { links.push("<a class='pages'  href='index.html?page="+i+"'>"+i+"</a>");
+      }
    }
-   
    this.foo=links.join("|");
    return this.foo;
 

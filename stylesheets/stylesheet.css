@@ -6,11 +6,19 @@ font-size:16px;
 }
 
 a{color:#dc143c;
-color-size:16px;
 font-size:22px;
 line-height:18px;
 }
 
+a.currentPage{
+color:#dc143c;
+font-weight:bold;
+}
+
+a.pages{
+color:#666;
+font-weight:bold;
+}
 h2{font-size:30px;
 text-align:left;
 letter-spacing:0px;
