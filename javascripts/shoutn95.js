@@ -23,8 +23,8 @@ shoutn95.createlinksToContent=function(contents){
       } else { links.push("<a class='pages'  href='index.html?page="+i+"'>"+i+"</a>");
       }
    }
-   this.foo=links.join("|");
-   return this.foo;
+   this.foo=links.reverse();
+   return this.foo.join("|");
 
 }
       
