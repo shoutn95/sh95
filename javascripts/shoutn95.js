@@ -16,7 +16,7 @@ shoutn95.createlinksToContent=function(contents){
 
    var links=[];
    for(i=0;i<contents;i++){      
-      links.push("<a href='"+this.url+"?page="+i+"'>"+i+"</a>");   
+      links.push("<a href='index.html?page="+i+"'>"+i+"</a>");   
    }
    
    this.foo=links.join("|");
