@@ -44,6 +44,13 @@ margin-top:20px;
 color:#dc143c;
 }
 
+img{
+display:block;
+width:33%;
+float:right;
+margin:20px;
+}
+
 /*
     feuille de style principal
 
