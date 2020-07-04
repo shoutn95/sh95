@@ -1,6 +1,5 @@
 
 obj=null;
-
 var shoutn95 = function() {}
 
 shoutn95.url = "https://shoutn95.github.io/sh95/"
@@ -30,10 +29,10 @@ shoutn95.createlinksToContent=function(contents){
       
 shoutn95.loadFrontJSONform=function()
 {
-   xhr = new XMLHttpRequest();
-   xhr.open("GET",this.json,true);
-   xhr.send();
-   xhr.onload = function() {
+      front_ = new XMLHttpRequest();
+      front_.open("GET",this.json,true);
+      front_.send(null);
+      front_.onload = function() {
       video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());
       $("#front").html(shoutn95.loadFront(video));
        }
@@ -41,10 +40,10 @@ shoutn95.loadFrontJSONform=function()
 
 shoutn95.loadFooterJSONcontent=function()
 {
-   xhr_ = new XMLHttpRequest();
-   xhr_.open("GET",this.json,true);
-   xhr_.send();
-   xhr_.onload = function() {
+   footer_ = new XMLHttpRequest();
+   footer_.open("GET",this.json,true);
+   footer_.send(null);
+   footer_.onload = function() {
          content = shoutn95._getCountElementFromJSON(shoutn95.parseLinksJSON());
          $("#footer").html(shoutn95.createlinksToContent(content)); 
       }
@@ -52,13 +51,13 @@ shoutn95.loadFooterJSONcontent=function()
 
 shoutn95.parseFrontJSON=function()
 {
-   return JSON.parse(xhr.responseText);
+   return JSON.parse(front_.responseText);
    
 }
 
 shoutn95.parseLinksJSON=function()
 {
-   return JSON.parse(xhr_.responseText);
+   return JSON.parse(footer_.responseText);
    
 }
 
