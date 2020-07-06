@@ -51,7 +51,9 @@ width:80%;
 }
 
 h1{font-size:28px;
-color:#dc143c;    
+color:#dc143c;
+font-weight:normal;    
+text-decoration:underline;
 }
 
 #footer{
@@ -138,6 +140,13 @@ width:100%;
 position:absolute;
 }
 
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
 /*
     feuille de style principal
 
