@@ -116,8 +116,10 @@ shoutn95._getFront0withLatestContent=function()
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
                      if(n==html_.length){
-                        for(j=1;j<=html_.length;j++){
-                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+j+"'>"+"##"+html_[j]+"</a><br />");
+                        for(j=0;j<html_.length;j++){
+                           page_=j+1;
+                           console.log(html_[j]);
+                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+page_+"'>"+"##"+html_[j]+"</a><br />");
                         }   
                      }
                   });
