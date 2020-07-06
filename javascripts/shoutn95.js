@@ -114,7 +114,7 @@ shoutn95._getFront0withLatestContent=function()
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
                      if(n==html_.length){
-                        console.log(html_);
+                        //console.log(html_);
                         for(j=1;j<html_.length;j++){
                            $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+j+"'>"+"##"+html_[j]+"</a><br />");
                         }
@@ -129,7 +129,14 @@ shoutn95._getFront0withLatestContent=function()
 
 }
 
+shoutn95.back_returnPrecedent = function()
+{
 
+   var _return = "<a href='javascript:history.back(); '>BACK</a>";
+   if (shoutn95.GetURLParameter('page')!=0){
+      $("#_backRetu").html(_return);
+   }
+}
 
 
 shoutn95.GetURLParameter = function(sParam) 

@@ -108,6 +108,12 @@ table img{
     width:100%;
 }
 
+#_backRetu{
+    display:block;
+    float:right;
+    background-color:#000;
+    margin-top:-10px;
+}
 /*iframe{
     margin-top:20px;
     margin-bottom:20px;

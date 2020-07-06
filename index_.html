@@ -36,14 +36,16 @@ function run(){
         function(data){
                 $("#contents").html(md.render( data ));
         });
-}
-new run();       
-</script>
+        }
+new run();
 
+</script>
+<div id="_backRetu"></div>
 <div id="footer"></div>
     
 <script type="text/javascript">
     shoutn95._getFront0withLatestContent ();<!-- latestContent -->
+    shoutn95.back_returnPrecedent();
     shoutn95.loadFooterJSONcontent();
 <!-- load footer-->
 </script>
