@@ -12,12 +12,12 @@ line-height:18px;
 
 a.currentPage{
 color:#dc143c;
-font-weight:bold;
+font-weight:normal;
 }
 
 a.pages{
 color:#666;
-font-weight:bold;
+font-weight:normal;
 }
 
 #page{
@@ -59,6 +59,10 @@ margin-top:20px;
 color:#dc143c;
 clear:both;
 }
+
+#footer a{
+background-color:#000;
+} 
 
 #front{
 display:block;
@@ -120,7 +124,7 @@ table img{
 }*/
 
 .front{
-overflow:hidden; 
+overflow:hidden;
 padding-bottom:56.25%; 
 position:relative; 
 height:0;
