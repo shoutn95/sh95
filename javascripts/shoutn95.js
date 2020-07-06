@@ -7,8 +7,11 @@ shoutn95.json = "init.json";
 
 shoutn95.loadFront=function(video)
 {
-   return("<iframe width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
-            
+
+   if(shoutn95.GetURLParameter('page')==0)
+   {
+   return("<iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
+   }
 }
 
 shoutn95.createlinksToContent=function(contents){
@@ -61,6 +64,18 @@ shoutn95.parseLinksJSON=function()
    
 }
 
+shoutn95.parseLatestJSON=function()
+{
+   return JSON.parse(latest_.responseText);
+   
+}
+
+shoutn95.parseContentJSON=function()
+{
+   return JSON.parse(content_.responseText);
+   
+}
+
 shoutn95._getRandomElementFromJSON=function(param=null){
 //console.log(param["myContents"]);
     if (param["myYouTube"]){
@@ -76,6 +91,45 @@ shoutn95._getCountElementFromJSON=function(param=null){
       return myContentPages.length;
    }
 }
+
+shoutn95._getFront0withLatestContent=function()
+{
+   latest_ = new XMLHttpRequest();
+   latest_.open("GET",this.json,true);
+   latest_.send(null);
+   latest_.onload = function() {
+      
+      content = shoutn95._getCountElementFromJSON(shoutn95.parseLatestJSON());
+      var content_=[];
+      for(k=0;k<=content;k++){
+         if(k==content) break;
+         content_.push(shoutn95.url+"contents/"+"CONTENTS"+k+".md");
+      }
+      
+      if(shoutn95.GetURLParameter('page')==0)
+      {
+         var html_=[];
+         var md_ = window.markdownit("default",{html:true});      
+               for(var n=0;n<content_.length;n++){
+                  jQuery.get(content_[n],function(data){
+                     html_.push($(md_.render(data)).html());
+                     if(n==html_.length){
+                        console.log(html_);
+                        for(j=1;j<html_.length;j++){
+                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+j+"'>"+"##"+html_[j]+"</a><br />");
+                        }
+                         
+                     }
+                  });  
+               }
+      
+      }
+   
+   }   
+
+}
+
+
 
 
 shoutn95.GetURLParameter = function(sParam) 
