@@ -101,7 +101,7 @@ shoutn95._getFront0withLatestContent=function()
       
       content = shoutn95._getCountElementFromJSON(shoutn95.parseLatestJSON());
       var content_=[];
-      for(k=0;k<=content;k++){
+      for(k=1;k<=content;k++){
          if(k==content) break;
          content_.push(shoutn95.url+"contents/"+"CONTENTS"+k+".md");
       }
@@ -111,16 +111,18 @@ shoutn95._getFront0withLatestContent=function()
          var html_=[];
          var md_ = window.markdownit("default",{html:true});      
                for(var n=0;n<content_.length;n++){
+               //console.log(content_);
+                  if(n=>0){
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
                      if(n==html_.length){
-                        //console.log(html_);
-                        for(j=1;j<html_.length;j++){
+                        console.log(html_);
+                        for(j=0;j<html_.length;j++){
                            $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+j+"'>"+"##"+html_[j]+"</a><br />");
-                        }
-                         
+                        }   
                      }
-                  });  
+                  });
+                  }
                }
       
       }
