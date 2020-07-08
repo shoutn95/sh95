@@ -118,7 +118,7 @@ shoutn95._getFront0withLatestContent=function()
                      if(n==html_.length){
                         for(j=0;j<html_.length;j++){
                            page_=j+1;
-                           console.log(html_[j]);
+                           console.log(html_);
                            $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+page_+"'>"+"##"+html_[j]+"</a><br />");
                         }   
                      }
