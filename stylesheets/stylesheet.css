@@ -67,7 +67,8 @@ clear:both;
 }
 
 #footer a{
-background-color:#000;
+background-color:#333;
+padding:2px;
 } 
 
 #front{
@@ -86,7 +87,16 @@ clear:both;
 color:#666;
 text-decoration:none;
 font-weigth:bold;
+}
 
+table{
+border:0px;
+border-spacing:0px;
+}
+
+table tr:nth-child(1){
+margin-top:-6px;
+background-color:#000;
 }
 table.right{
 width:30%; 
@@ -123,8 +133,9 @@ table img{
 #_backRetu{
     display:block;
     float:right;
-    background-color:#000;
+    background-color:#333;
     margin-top:-10px;
+    padding:2px;
 }
 /*iframe{
     margin-top:20px;
@@ -167,7 +178,7 @@ color:#666;
 margin-bottom:20px;
 text-align:right;
 clear:all;
-margin-right:20%;
+margin-right:5%;
 }
 /*
     feuille de style principal
