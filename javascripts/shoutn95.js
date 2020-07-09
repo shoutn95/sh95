@@ -103,7 +103,7 @@ shoutn95._getFront0withLatestContent=function()
       var content_=[];
       for(k=1;k<=content;k++){
          if(k==content) break;
-         content_.push(shoutn95.url+"contents/"+"CONTENTS"+k+".md");
+         content_.push("../contents/"+"CONTENTS"+k+".md");
       }
       
       if(shoutn95.GetURLParameter('page')==0)
@@ -116,16 +116,17 @@ shoutn95._getFront0withLatestContent=function()
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
                      if(n==html_.length){
+                     page_=0;
+                     html_=html_.sort();
                         for(j=0;j<html_.length;j++){
-                           page_=j+1;
-                           console.log(html_);
+                           page_+=1;
+                           //console.log(page_);
                            $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+page_+"'>"+"##"+html_[j]+"</a><br />");
                         }   
                      }
                   });
                   }
                }
-      
       }
    
    }   

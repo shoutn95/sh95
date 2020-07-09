@@ -3,6 +3,7 @@ background-color:#222;
 color:#666;
 font-family:"Courier New";
 font-size:16px;
+margin:0px;
 }
 
 a{color:#dc143c;
@@ -98,6 +99,7 @@ table tr:nth-child(1){
 margin-top:-6px;
 background-color:#000;
 }
+
 table.right{
 width:30%; 
 display:block;
@@ -124,18 +126,34 @@ color:#0000BB;
 font-size:20px;
 text-align:left;
 clear:right;
+}
+
+table.heading{
+width:100%; 
+display:block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+font-family : "Courier";
+color:#0000BB;
+font-size:20px;
+text-align:left;
+clear:both;
 }  
 
 table img{
-    width:100%;
+    width:60%;
 }
 
 #_backRetu{
     display:block;
     float:right;
     background-color:#333;
-    margin-top:-10px;
+    margin-top:10px;
     padding:2px;
+    clear:both;
 }
 /*iframe{
     margin-top:20px;
