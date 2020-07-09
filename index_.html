@@ -35,6 +35,10 @@ function run(){
     jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md",
         function(data){
                 $("#contents").html(md.render( data ));
+                $("h2").after ("<div class='left'>/=================<br /></div>");
+                $("h2").before("<div class='right'><br />=================/<div>");
+                
+                
         });
         }
 new run();
@@ -47,7 +51,9 @@ new run();
     shoutn95._getFront0withLatestContent ();<!-- latestContent -->
     shoutn95.back_returnPrecedent();
     shoutn95.loadFooterJSONcontent();
+    
 <!-- load footer-->
+
 </script>
 <div id="sub"></div>
 </div>
