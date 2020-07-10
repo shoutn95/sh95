@@ -120,8 +120,8 @@ shoutn95._getFront0withLatestContent=function()
                      html_=html_.sort();
                         for(j=0;j<html_.length;j++){
                            page_+=1;
-                           //console.log(page_);
-                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+page_+"'>"+"##"+html_[j]+"</a><br />");
+                           console.log(html_);
+                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+Math.abs(page_)+"'>"+"##"+html_[j]+"</a><br />");
                         }   
                      }
                   });
