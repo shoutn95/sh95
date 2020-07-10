@@ -110,8 +110,8 @@ shoutn95._getFront0withLatestContent=function()
       {
          var html_=[];
          var md_ = window.markdownit("default",{html:true});      
-               for(var n=0;n<content_.length;n++){
-               //console.log(content_);
+               for( var n=0;n<content_.length;n++){
+               console.log(content_);
                   if(n=>0){
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());

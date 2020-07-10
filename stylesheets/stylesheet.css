@@ -35,8 +35,7 @@ font-family:"Courier New";
 font-size:20px;
 font-weight:normal;
 color:#666;
-margin-top:-10px;
-clear:left;
+margin-top:20px;
 display:inline;
 }
 
@@ -141,7 +140,15 @@ color:#0000BB;
 font-size:20px;
 text-align:left;
 clear:both;
-}  
+border:0px;
+border-spacing:0px;
+}
+
+table.heading img{
+    width:60%;
+    margin:0px;
+    margin-bottom:-10px;
+}
 
 table img{
     width:60%;
@@ -187,6 +194,7 @@ div.left{
 float:left;
 font-size:20px;
 color:#666;
+margin-bottom:0px;
 }
 
 div.right{
