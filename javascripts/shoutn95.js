@@ -105,23 +105,24 @@ shoutn95._getFront0withLatestContent=function()
          if(k==content) break;
          content_.push(shoutn95.url+"contents/"+"CONTENTS"+k+".md");
       }
+      //console.log(content);
       
       if(shoutn95.GetURLParameter('page')==0)
       {
          var html_=[];
          var md_ = window.markdownit("default",{html:true});      
                for( var n=0;n<content_.length;n++){
-               console.log(content_);
+               //console.log(content_);
                   if(n=>0){
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
                      if(n==html_.length){
-                     page_=0;
-                     html_=html_.sort();
+                        content-=1;
+                        html_=html_.reverse();
                         for(j=0;j<html_.length;j++){
-                           page_+=1;
-                           console.log(html_);
-                           $("#_latestContent").append("<a href='"+shoutn95.url+"?page="+Math.abs(page_)+"'>"+"##"+html_[j]+"</a><br />");
+                            console.log(content);
+                           $("#_latestContent ").append("<a href='"+shoutn95.url+"?page="+content+"'>"+"##"+html_[j]+"</a><br />");
+                           content-=1;
                         }   
                      }
                   });
