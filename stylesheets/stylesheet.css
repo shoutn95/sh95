@@ -30,7 +30,7 @@ font-weight:normal;
 clear:both;
 }
 
-h3{
+h3,h4{
 font-family:"Courier New";
 font-size:20px;
 font-weight:normal;
@@ -48,6 +48,14 @@ padding:20px;
 background-color:#111;
 width:90%;
 box-shadow: 10px 5px 5px black;
+clear:both;
+overflow:hidden;
+}
+
+.tip img{
+display:block;
+width:200px;
+clear:all;
 }
 
 h2{
