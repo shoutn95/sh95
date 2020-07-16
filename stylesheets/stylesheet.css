@@ -54,8 +54,8 @@ overflow:hidden;
 
 .tip img{
 display:block;
-width:200px;
-clear:all;
+width:20%;
+margin:10px;
 }
 
 .tip a{
