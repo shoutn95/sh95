@@ -12,9 +12,7 @@
 ### &nbsp;I started with a training period in a 3D graphic team as "producer assistant". As I was interested with graphics, and video games, I also took part with graphics with Photoshop, After Effects and 3DS Max, and development with scripting. In 1997, CRYO is publishing [Atlantis](https://fr.wikipedia.org/wiki/Atlantis_:_Secrets_d%27un_monde_oublié) and [Versailles](https://fr.wikipedia.org/wiki/Versailles_1685_:_Complot_à_la_cour_du_Roi_Soleil).<br />
 ### Their game engine was based in pre-calculed 3D pictures mapped within a sphere where player was wrapped. It was a kind of subjective adventure games forwarded in the past with the well known [Myst](https://fr.wikipedia.org/wiki/Myst_(jeu_vidéo)), another subjective pre-calculed game, which was a kind of reference in the 90`s.<br />For now, I am a kind of these abandonware games, but still developping as I can some internet programs.<br />
 
-#### **What about these applications ?** [<<FOOBAR 2000>>](#)&nbsp;//As I always prefer digital artwork and digital impression (as a "pixelmator") I was kind when I found _foobar 2000_. It was an E.T. program compare to the classic Windows Media Player. We were able to make our own playlists for listening music; with no particular order - like "shuffeling the cards" - or  with sorting the files by title, artists or albums... With the *COMPONMENTS*, that add extra to the program...[suite](./index.html?page=APPLICATIONS) {.tip}
 
-# Read more articles listed below.
 <!--  
 contenu markdown
 et html

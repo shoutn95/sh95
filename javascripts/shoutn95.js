@@ -109,10 +109,12 @@ shoutn95._getFront0withLatestContent=function()
       
       if(shoutn95.GetURLParameter('page')==0)
       {
+         $("#_latestContent").html("<h1>Read more articles listed below</h1>");
+         
          var html_=[];
          var md_ = window.markdownit("default",{html:true});      
                for( var n=0;n<content_.length;n++){
-               console.log(content_);
+               //console.log(content_);
                   if(n=>0){
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
@@ -142,6 +144,26 @@ shoutn95.back_returnPrecedent = function()
    if (shoutn95.GetURLParameter('page')!=0){
       $("#_backRetu").html(_return);
    }
+}
+
+
+shoutn95._getFront0withLatestAPPLICATIONS  = function()
+{
+   var _file = shoutn95.url+"contents/APPLICATIONS.md";
+   var md_ = window.markdownit("default",{html:true});
+   var _return = "";
+
+   if(shoutn95.GetURLParameter('page')==0){
+      $("#_latestApps").html("<h4><b>What about these applications ?</b></h4>");
+      $.get(_file, function( data ) {
+         _return = md_.render(data.substr(0,300));
+         $("#_latestApps").append("&nbsp;"+_return);
+         $("#_latestApps").append("<a href='./index.html?page=APPLICATIONS'>suite</a>");
+        },'text');          
+   }
+ 
+
+
 }
 
 
