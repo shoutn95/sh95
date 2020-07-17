@@ -31,16 +31,23 @@ function run(){
         rightDelimiter: '}',
         allowedAttributes: []  
         });
+        
+        if (isNaN(shoutn95.GetURLParameter('page'))){
+        
+            jQuery.get("contents/"+shoutn95.GetURLParameter('page') + ".md", function(data){
+                $("#contents").html(md.render( data ));
+            });
+            
+        }else{
  
-    jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md",
-        function(data){
+            jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md", function(data){
                 $("#contents").html(md.render( data ));
                 $("h2").first().after ("<div class='left'>/=================</div>");
-                $("h3").last().after("<div class='right'><br />=================/<div>");
-                
-                
-        });
+                $("h3").last().after("<div class='right'><br />=================/<div>");    
+            });
         }
+    }
+        
 new run();
 
 </script>
