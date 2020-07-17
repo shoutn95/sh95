@@ -157,8 +157,8 @@ shoutn95._getFront0withLatestAPPLICATIONS  = function()
       $("<div id='_latestApps' class='tip'></div>").insertAfter("#contents");
       $("#_latestApps").html("<h4><b>What about these applications ?</b></h4>");
       $.get(_file, function( data ) {
-         _return = md_.render(data.substr(0,400));
-         $("#_latestApps").append("&nbsp;"+_return);
+         _return = md_.render(data.substr(0,380)); 
+         $("#_latestApps").append("&nbsp;"+_return+"...&nbsp;");
          $("#_latestApps").append("<a href='./index.html?page=APPLICATIONS'>suite</a>");
         },'text');          
    }
