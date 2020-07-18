@@ -9,3 +9,9 @@
 |_*Typo3 is one of the most versatile CMS, but not so usual for starting as a Wordpress.*_|
 {.left}
 ### Facebook is an application, Twitter is an other, their accessibilities are evident, as well as Instagram. They are simple but not so obvious, as we consider tags. May can we consider them as a link? Databases are huges, and each one can with tracing the keyword reach all contents tagged.<br />Persistance of datas required database, that can be reach by a program which run on a computer with an other program which request an other computer where run an other program. All things with some structured langages, response each other.<br />I do not know all the kind of socialization programs that are used, but some of them consist of being here with a picture for just a couple of seconds after being deleted. You are in time or you were not.
+
+<style type='text/css'>
+table.left{
+ margin-right:1vw;
+}
+</style>
