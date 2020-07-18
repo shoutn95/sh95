@@ -44,7 +44,6 @@ color:#666;
 margin-top:20px;
 display:inline;
 clear:both;
-line-height:1.1;
 }
 
 .tip{
@@ -58,7 +57,7 @@ box-shadow: 10px 5px 5px black;
 clear:both;
 overflow:hidden;
 line-height:1.1;
-}
+ }
 
 .tip img{
 display:block;
