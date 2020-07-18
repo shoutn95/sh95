@@ -158,7 +158,7 @@ shoutn95._staticfiles  = function(page)
 
    if(shoutn95.GetURLParameter('page')==0){
       $("<div id='_lateststatic' class='tip'></div>").insertAfter("#contents");
-      $("#_lateststatic").html("<h4><b>What about these applications ?</b></h4>");
+      $("#_lateststatic").html("<h4><b>What about these applications_?</b></h4>");
       $.get(_file, function( data ) {
          _return = md_.render(data.substr(0,380)); 
          $("#_lateststatic").append("&nbsp;"+_return+"...&nbsp;");
