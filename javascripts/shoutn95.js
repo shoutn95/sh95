@@ -31,6 +31,7 @@ shoutn95.loadFrontJSONform=function()
 
    if (shoutn95.GetURLParameter('page')==0)
    {
+      
       front_ = new XMLHttpRequest();
       front_.open("GET",this.json,true);
       front_.send(null);

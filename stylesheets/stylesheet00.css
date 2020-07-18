@@ -1,3 +1,8 @@
+@viewport{
+    zoom: 1.5;
+    width: device-width;
+}
+
 body{
 background-color:#222;
 color:#666;
@@ -196,21 +201,21 @@ table img{
     margin-bottom:20px;
 }*/
 
-.front{
+/*#front{
 overflow:hidden;
-padding-bottom:56.25%; 
+padding-bottom:56.25%;
 position:relative; 
 height:0;
 }
 
-.front iframe  {
+#front iframe  {
 left:0; 
 top:0; 
 height:100%;
 width:100%;
 position:absolute;
 }
-
+*/
 .left{
 float:left;
 }
