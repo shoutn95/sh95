@@ -143,6 +143,7 @@ shoutn95.back_returnPrecedent = function()
 
    var _return = "<a href='javascript:history.back(); '>BACK</a>";
    if (shoutn95.GetURLParameter('page')!=0){
+      $("<div id='_backRetu'></div>").insertBefore("#footer");
       $("#_backRetu").html(_return);
    }
 }
