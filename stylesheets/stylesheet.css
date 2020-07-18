@@ -94,11 +94,11 @@ background-color:#333;
 padding:2px;
 } 
 
-#front{
+/*#front{
 display:block;
 float:left;
 clear:both;
-}
+}*/
 
 #_latestContent{
 display:block;
@@ -196,14 +196,14 @@ table img{
     margin-bottom:20px;
 }*/
 
-.front{
+#front{
 overflow:hidden;
 padding-bottom:56.25%; 
 position:relative; 
 height:0;
 }
 
-.front iframe  {
+#front iframe  {
 left:0; 
 top:0; 
 height:100%;
