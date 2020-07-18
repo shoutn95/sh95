@@ -1,8 +1,3 @@
-@viewport{
-    zoom: 1;
-    width: device-width;
-}
-
 body{
 background-color:#222;
 color:#666;
@@ -14,6 +9,14 @@ margin:0px;
 a{color:#dc143c;
 font-size:2vw;
 line-height:18px;
+}
+
+.hea{
+line-height:1em;
+display:block;
+height:-30px;
+font-size:2vw;
+color:#666;
 }
 
 a.currentPage{
