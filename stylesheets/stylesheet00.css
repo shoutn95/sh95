@@ -1,0 +1,242 @@
+body{
+background-color:#222;
+color:#666;
+font-family:"Courier New";
+font-size:16px;
+margin:0px;
+}
+
+a{color:#dc143c;
+font-size:22px;
+line-height:18px;
+}
+
+a.currentPage{
+color:#dc143c;
+font-weight:normal;
+}
+
+a.pages{
+color:#666;
+font-weight:normal;
+}
+
+#page{
+    width:100%;
+    clear:both;
+}
+
+#contents{
+clear:both;
+}
+
+h3,h4{
+font-family:"Courier New";
+font-size:20px;
+font-weight:normal;
+color:#666;
+margin-top:20px;
+display:inline;
+clear:both;
+}
+
+.tip{
+display:block;
+margin-left:auto;
+margin-right:auto;
+padding:20px;
+background-color:#111;
+width:90%;
+box-shadow: 10px 5px 5px black;
+clear:both;
+overflow:hidden;
+}
+
+.tip img{
+display:block;
+width:20%;
+margin:10px;
+}
+
+.tip a{
+color:grey;
+}
+
+h2{
+font-family:"Courier New";
+font-size:24px;
+text-align:left;
+letter-spacing:0px;
+line-height:24px;
+margin-left:0px;
+color:#fff;
+font-weight:normal;
+font-style:italic;
+width:80%;
+clear:both;
+}
+
+h1{font-size:28px;
+color:#dc143c;
+font-weight:normal;    
+text-decoration:underline;
+clear:both;
+}
+
+#footer{
+margin-top:20px;
+color:#dc143c;
+clear:both;
+}
+
+#footer a{
+background-color:#333;
+padding:2px;
+} 
+
+#front{
+display:block;
+float:left;
+clear:both;
+}
+
+#_latestContent{
+display:block;
+margin-right:10%;
+clear:both;
+}
+
+#_latestContent a{
+color:#666;
+text-decoration:none;
+font-weigth:bold;
+}
+
+table{
+border:0px;
+border-spacing:0px;
+}
+
+table tr:nth-child(1){
+margin-top:-6px;
+background-color:#000;
+}
+
+table tr:nth-last-child{
+text-align:left;
+}
+table.right{
+width:30%; 
+display:block;
+float:right;
+margin-top: -40px;
+margin-left:20px;
+margin-bottom:20px;
+font-family : "Courier";
+color:#0000BB;
+font-size:20px;
+text-align:center;
+clear:left;
+} 
+
+table.left{
+width:30%; 
+display:block;
+float:left;
+margin-top:10px;
+margin-left:10px;
+margin-right:40px;
+margin-bottom:20px;
+font-family : "Courier";
+color:#0000BB;
+font-size:20px;
+text-align:center;
+clear:right;
+}
+
+table.heading{
+width:100%; 
+display:block;
+float:left;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:0px;
+font-family : "Courier";
+color:#0000BB;
+font-size:20px;
+text-align:left;
+clear:both;
+border:0px;
+border-spacing:0px;
+}
+
+table.heading img{
+    width:60%;
+    margin:0px;
+    margin-bottom:0px;
+}
+
+table img{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#_backRetu{
+    display:block;
+    float:right;
+    background-color:#333;
+    margin-top:10px;
+    padding:2px;
+    clear:both;
+}
+/*iframe{
+    margin-top:20px;
+    margin-bottom:20px;
+}*/
+
+.front{
+overflow:hidden;
+padding-bottom:56.25%; 
+position:relative; 
+height:0;
+}
+
+.front iframe  {
+left:0; 
+top:0; 
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
+
+div.left{
+position:relative;
+float:left;
+font-size:20px;
+color:#666;
+top:-10px;
+}
+
+div.right{
+float:right;
+font-size:20px;
+color:#666;
+margin-bottom:20px;
+text-align:right;
+clear:all;
+margin-right:5%;
+}
+/*
+    feuille de style principal
+
+*/
