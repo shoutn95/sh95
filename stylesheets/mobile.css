@@ -16,7 +16,7 @@ height:-30px;
 font-size:1.4em;
 color:white;
 margin-left:5px;
-margin-bottom:4em;
+margin-bottom:2em;
 margin-top:20px;
 }
 
@@ -133,20 +133,16 @@ clear:both;
 }*/
 
 #_latestContent{
-display:block;
-margin-right:10%;
+margin-right:5%;
 clear:both;
-line-height:3em;
-margin-bottom:60px;
+line-height:2em ;
+margin-bottom:6em; 
 }
 
 #_latestContent a{
-display:block;
-height:1.3em;
 color:#666;
 text-decoration:none;
 font-size:2em;
-line-height:1em;
  }
 
 table{
