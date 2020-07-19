@@ -58,7 +58,7 @@ line-height:1.2em;
 color:#666;
 margin-top:20px;
 display:inline;
-clear:both;
+clear:all;
 margin-left:40px;
 padding-left:0vw;
 }
@@ -257,6 +257,7 @@ float:left;
 color:#666;
 top:-10px;
 font-size:1.4em;
+clear:both;
 }
 
 div.right{
@@ -264,8 +265,8 @@ float:right;
 color:#666;
 margin-bottom:20px;
 text-align:right;
-clear:all;
-margin-right:5%;
+clear:both;
+margin-right:0%;
 font-size:1.4em;
 }
 /*
