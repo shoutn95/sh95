@@ -162,7 +162,7 @@ shoutn95._staticfiles  = function(page)
       $.get(_file, function( data ) {
          _return = md_.render(data.substr(0,380)); 
          $("#_lateststatic").append("&nbsp;"+_return+"...&nbsp;");
-         $("#_lateststatic").append("<a href='./index.html?page=APPLICATIONS'>suite</a>");
+         $("#_lateststatic").append("<a class='suite' href='./index.html?page=APPLICATIONS'>suite</a>");
         },'text');          
    }
  
