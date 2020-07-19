@@ -3,7 +3,9 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=yes, minimum-scale=1,user-scalable=yes, viewport-fit=auto">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet00.css" media="screen and (min-width:800px)" > 
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="stylesheets/mobile.css" type="text/css"/>
     <script type="text/javascript" src="javascripts/jQuery.js" ></script>
     <script type="text/javascript" src="javascripts/markdown-it.js"></script>
     <script type="text/javascript" src="javascripts/markdown-it-attrs.js"></script>
@@ -15,8 +17,7 @@
 <!-- load  random youtube or whatelse-->
 <div id="page">
     <div id="head">
-    <div id="top"></div>
-        <div id="front"></div>
+        <div id="top"></div>
     </div>
     <div id="contents"></div>
     <div id="_latestContent"></div>
@@ -51,11 +52,10 @@ function run(){
 new run();
 
 </script>
-<div id="_backRetu"></div>
 <div id="footer"></div>
     
 <script type="text/javascript">
-    shoutn95._getFront0withLatestAPPLICATIONS();
+    shoutn95._staticfiles("APPLICATIONS");
     shoutn95._getFront0withLatestContent ();<!-- latestContent -->
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();

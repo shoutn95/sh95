@@ -7,11 +7,7 @@ shoutn95.json = "init.json";
 
 shoutn95.loadFront=function(video)
 {
-
-   if(shoutn95.GetURLParameter('page')==0)
-   {
    return("<iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
-   }
 }
 
 shoutn95.createlinksToContent=function(contents){
@@ -32,13 +28,19 @@ shoutn95.createlinksToContent=function(contents){
       
 shoutn95.loadFrontJSONform=function()
 {
+
+   if (shoutn95.GetURLParameter('page')==0)
+   {
+      
       front_ = new XMLHttpRequest();
       front_.open("GET",this.json,true);
       front_.send(null);
       front_.onload = function() {
-      video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());
+      video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());      
+      $("<div id='front'></div>").insertAfter("#top");
       $("#front").html(shoutn95.loadFront(video));
-       }
+      }
+   }
 }
 
 shoutn95.loadFooterJSONcontent=function()
@@ -142,24 +144,25 @@ shoutn95.back_returnPrecedent = function()
 
    var _return = "<a href='javascript:history.back(); '>BACK</a>";
    if (shoutn95.GetURLParameter('page')!=0){
+      $("<div id='_backRetu'></div>").insertBefore("#footer");
       $("#_backRetu").html(_return);
    }
 }
 
 
-shoutn95._getFront0withLatestAPPLICATIONS  = function()
+shoutn95._staticfiles  = function(page)
 {
-   var _file = shoutn95.url+"contents/APPLICATIONS.md";
+   var _file = shoutn95.url+"contents/"+page+".md";
    var md_ = window.markdownit("default",{html:true});
    var _return = "";
 
    if(shoutn95.GetURLParameter('page')==0){
-      $("<div id='_latestApps' class='tip'></div>").insertAfter("#contents");
-      $("#_latestApps").html("<h4><b>What about these applications ?</b></h4>");
+      $("<div id='_lateststatic' class='tip'></div>").insertAfter("#contents");
+      $("#_lateststatic").html("<h4><b>What about these applications_?</b></h4>");
       $.get(_file, function( data ) {
          _return = md_.render(data.substr(0,380)); 
-         $("#_latestApps").append("&nbsp;"+_return+"...&nbsp;");
-         $("#_latestApps").append("<a href='./index.html?page=APPLICATIONS'>suite</a>");
+         $("#_lateststatic").append("&nbsp;"+_return+"...&nbsp;");
+         $("#_lateststatic").append("<a class='suite' href='./index.html?page=APPLICATIONS'>suite</a>");
         },'text');          
    }
  

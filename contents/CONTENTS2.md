@@ -7,3 +7,9 @@
 |-|
 ||
 {.heading}
+
+<style type='text/css'>
+.tip{
+ line-height:1.3;
+}
+</style>
