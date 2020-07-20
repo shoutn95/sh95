@@ -245,13 +245,13 @@ float:right;
 }
 
 div.left{
-display:inline;
 position:relative;
 float:left;
 font-size:2em;
 color:#8B008B;
 top:-20px;
 clear:both;
+margin-bottom:-2vw;
 }
 
 div.right{
