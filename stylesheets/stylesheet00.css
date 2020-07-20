@@ -244,17 +244,19 @@ float:right;
 }
 
 div.left{
+display:inline;
 position:relative;
 float:left;
-font-size:20px;
-color:#666;
-top:-10px;
+font-size:2em;
+color:#8B008B;
+top:-20px;
+clear:both;
 }
 
 div.right{
 float:right;
-font-size:20px;
-color:#666;
+font-size:2em;
+color:#8B008B;
 margin-bottom:20px;
 text-align:right;
 clear:all;

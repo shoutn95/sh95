@@ -114,17 +114,17 @@ line-height:1em;
 
 #footer{
 display:block;
-margin-top:8em;
+margin-top:80px;
 color:#dc143c;
 clear:both;
 height:200px;
 }
 
 #footer a{
+font-size:2em;
 background-color:#333;
-padding:1.5vw;
-font-size:1.6em;
-} 
+padding:1vw;
+}
 
 /*#front{
 display:block;
@@ -254,20 +254,20 @@ float:right;
 div.left{
 position:relative;
 float:left;
-color:#666;
+color:#8B008B;
 top:-10px;
-font-size:1.4em;
+font-size:2em;
 clear:both;
 }
 
 div.right{
 float:right;
-color:#666;
+color:#8B008B;
 margin-bottom:20px;
 text-align:right;
 clear:both;
 margin-right:0%;
-font-size:1.4em;
+font-size:2em;
 }
 /*
     feuille de style principal
