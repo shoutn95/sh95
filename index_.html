@@ -43,8 +43,8 @@ function run(){
  
             jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md", function(data){
                 $("#contents").html(md.render( data ));
-                $("h2").first().after ("<div class='left'>/=================</div>");
-                $("h3").last().after("<div class='right'><br />=================/<div>");    
+                $("h2").first().after ("<div class='left'>//=================</div>");
+                $("h3").last().after("<div class='right'><br />=================//<div>");    
             });
         }
     }
