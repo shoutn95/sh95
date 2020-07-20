@@ -37,7 +37,7 @@ shoutn95.loadFrontJSONform=function()
       front_.send(null);
       front_.onload = function() {
       video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());      
-      $("<div id='front'></div>").insertAfter("#top");
+      $("<div id='front'></div>").insertBefore("#top");
       $("#front").html(shoutn95.loadFront(video));
       }
    }
