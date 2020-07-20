@@ -160,8 +160,9 @@ shoutn95._staticfiles  = function(page)
       $("<div id='_lateststatic' class='tip'></div>").insertAfter("#contents");
       $("#_lateststatic").html("<h4><b>What about these applications_?</b></h4>");
       $.get(_file, function( data ) {
-         _return = md_.render(data.substr(0,380)); 
-         $("#_lateststatic").append("&nbsp;"+_return+"...&nbsp;");
+         _return = md_.render(data.substr(0,380));
+         data_replaced=_return.replace(/^(.{380}[^\s]*).*/, "$1") + "\n";
+         $("#_lateststatic").append("&nbsp;"+data_replaced+"...&nbsp;");
          $("#_lateststatic").append("<a class='suite' href='./index.html?page=APPLICATIONS'>suite</a>");
         },'text');          
    }
