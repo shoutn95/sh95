@@ -24,6 +24,17 @@ margin-top:20px;
     font-size:1.3em;
 }
 
+#top{
+    font-family:"Courier New";
+    width:50%;
+    display:block;
+    color:#0000bb;
+    font-size:2em;
+    white-space:normal;
+    margin-left:auto:
+    margin-right:auto;
+}
+
 a{color:#dc143c;
 font-size:1em;
 line-height:1vw;
@@ -254,15 +265,14 @@ div.left{
 position:relative;
 margin-bottom:-2vw;
 float:left;
-color:#8B008B;
-top:-10px;
+color:#0000bb;
 font-size:2em;
 clear:both;
 }
 
 div.right{
 float:right;
-color:#8B008B;
+color:#0000bb;
 margin-bottom:20px;
 margin-top:-20px;
 text-align:right;

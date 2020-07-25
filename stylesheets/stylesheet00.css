@@ -10,6 +10,10 @@ line-height:18px;
 font-size:1em;
 }
 
+#top{
+display:none;
+}
+
 .hea{
 line-height:1em;
 display:block;
@@ -248,7 +252,7 @@ div.left{
 position:relative;
 float:left;
 font-size:2em;
-color:#8B008B;
+color:#0000bb;
 top:-20px;
 clear:both;
 margin-bottom:-2vw;
@@ -257,7 +261,7 @@ margin-bottom:-2vw;
 div.right{
 float:right;
 font-size:2em;
-color:#8B008B;
+color:#0000bb;
 margin-bottom:20px;
 margin-top:-20px;
 text-align:right;
