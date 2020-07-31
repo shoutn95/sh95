@@ -23,14 +23,13 @@
     <div id="_latestContent"></div>
 <script type="text/javascript">
 
-    if(location.search.indexOf('r') < 0){
-    var hash = window.location.hash;
-    var loc = window.location.href.replace(hash, '');
-    loc += (loc.indexOf('?') < 0? '?' : '&') + 'r';
-    setTimeout(function(){window.location.href = loc + hash;}, 1000);
+    if(location.search.indexOf('reload') < 0){
+        var hash = window.location.hash;
+        var loc = window.location.href.replace(hash, '');
+        loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
+        setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
-
-
+    
 function run(){
 
     shoutn95._message0();
@@ -54,7 +53,7 @@ function run(){
             jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md", function(data){
                 $("#contents").html(md.render( data ));
                 $("h2").first().after ("<div class='left'></div>");
-                $("h3").last().after("<div class='right'><br />-----------//<div>");    
+                $("h3").last().after("<div class='right'><br />/////////<div>");    
             }); 
         } 
     }

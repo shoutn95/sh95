@@ -5,6 +5,7 @@ var shoutn95 = function() {}
 shoutn95.url = "https://shoutn95.github.io/sh95/"
 shoutn95.json = "init.json";
 
+
 shoutn95._message0= function(){
 
    if (shoutn95.GetURLParameter('page')==0){
@@ -154,7 +155,7 @@ shoutn95._getFront0withLatestContent=function()
 shoutn95.back_returnPrecedent = function()
 {
 
-   var _return = "<a href='javascript:history.back(); '>BACK</a>";
+   var _return = "<a href='"+shoutn95.url+"'>BACK</a>";
    if (shoutn95.GetURLParameter('page')!=0){
       $("<div id='_backRetu'></div>").insertBefore("#footer");
       $("#_backRetu").html(_return);
