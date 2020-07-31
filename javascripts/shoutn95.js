@@ -23,6 +23,7 @@ shoutn95.loadFront=function(video)
 shoutn95.createlinksToContent=function(contents){
 
    var currentPage =window.location.search.substring(6);
+   currentPage=currentPage.substring(0,currentPage.indexOf("&"));
 
    var links=[];
    for(i=0;i<contents;i++){
