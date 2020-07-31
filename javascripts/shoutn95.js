@@ -131,14 +131,15 @@ shoutn95._getFront0withLatestContent=function()
                      //console.log(n);
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
-                     console.log(html_);
+                     console.log(content);
                      if(n==html_.length){
+                        html_.reverse();
                         //console.log("ok");
                         content-=1;
-                        html_=html_.reverse();
+                        //html_=html_.reverse();
                         //console.log(html_);
                         for(j=0;j<html_.length;j++){
-                            console.log(content);
+                            //console.log(content);
                            $("#_latestContent ").append("<a href='"+shoutn95.url+"?page="+content+"'>"+"##"+html_[j]+"</a><br />");
                            content-=1;
                         }   
