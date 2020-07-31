@@ -125,16 +125,16 @@ shoutn95._getFront0withLatestContent=function()
          
          var html_=[];
          var md_ = window.markdownit("default",{html:true});      
-               for( var n=0;n<content_.length;n++){
+               for(n=0;n<content_.length;n++){
                //console.log(content_);
                   if(n=>0){
                      //console.log(n);
                   jQuery.get(content_[n],function(data){
                      html_.push($(md_.render(data)).html());
-                     console.log(content);
+                     console.log(html_);
                      if(n==html_.length){
                         html_.reverse();
-                        //console.log("ok");
+                        console.log("ok");
                         content-=1;
                         //html_=html_.reverse();
                         //console.log(html_);
