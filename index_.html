@@ -13,7 +13,7 @@
     
     <title>shoutn95</title>
 </head>
-<body onload="shoutn95.loadFrontJSONform();LoadOnce();">
+<body>
 <!-- load  random youtube or whatelse-->
 <div id="page">
     <div id="head">
@@ -23,10 +23,14 @@
     <div id="_latestContent"></div>
 <script type="text/javascript">
 
-function LoadOnce() 
-{ 
-    shoutn95._getFront0withLatestContent();<!-- latestContent -->
-} 
+    if(location.search.indexOf('r') < 0){
+    var hash = window.location.hash;
+    var loc = window.location.href.replace(hash, '');
+    loc += (loc.indexOf('?') < 0? '?' : '&') + 'r';
+    setTimeout(function(){window.location.href = loc + hash;}, 2000);
+    }
+
+
 function run(){
 
     shoutn95._message0();
@@ -52,14 +56,19 @@ function run(){
                 $("h2").first().after ("<div class='left'></div>");
                 $("h3").last().after("<div class='right'><br />-----------//<div>");    
             }); 
-        }
-    }        
+        } 
+    }
+    
+    
+            
 new run();
 
 </script>
 <div id="footer"></div>
     
 <script type="text/javascript">
+    shoutn95.loadFrontJSONform();
+    shoutn95._getFront0withLatestContent();
     shoutn95._staticfiles("APPLICATIONS");
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
