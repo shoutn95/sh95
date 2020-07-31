@@ -105,6 +105,7 @@ shoutn95._getCountElementFromJSON=function(param=null){
 
 shoutn95._getFront0withLatestContent=function()
 {
+   
    latest_ = new XMLHttpRequest();
    latest_.open("GET",this.json,true);
    latest_.send(null);
@@ -135,7 +136,7 @@ shoutn95._getFront0withLatestContent=function()
                         //console.log("ok");
                         content-=1;
                         html_=html_.reverse();
-                        console.log(html_);
+                        //console.log(html_);
                         for(j=0;j<html_.length;j++){
                             console.log(content);
                            $("#_latestContent ").append("<a href='"+shoutn95.url+"?page="+content+"'>"+"##"+html_[j]+"</a><br />");

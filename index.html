@@ -13,11 +13,13 @@
     <div id="contents"></div>
     <script type="text/javascript">        
 function run()
-{     
+{
+         
     if (shoutn95.GetURLParameter('page')){
         var contentPage = shoutn95.GetURLParameter('page');
         window.location.href = "index_.html?page="+contentPage;
     }else{
+        document.location.reload(true);
         window.location.href = "index_.html?page=0";
     }     
 /* redirection vers index_html*/         
