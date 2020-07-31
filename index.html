@@ -14,9 +14,14 @@
     <script type="text/javascript">        
 function run()
 {     
-     var contentPage = shoutn95.GetURLParameter('page');
+    if (shoutn95.GetURLParameter('page')){
+        var contentPage = shoutn95.GetURLParameter('page');
+        window.location.href = "index_.html?page="+contentPage;
+    }else{
+        window.location.href = "index_.html?page=0";
+    }     
 /* redirection vers index_html*/         
-    window.location.href = "index_.html?page="+contentPage;
+    
 }        
 new run();
     </script> 
