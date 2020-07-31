@@ -53,6 +53,7 @@ color:#666;
 margin-top:20px;
 display:inline;
 clear:both;
+width:80%;
 }
 
 .tip{
@@ -179,7 +180,7 @@ font-family : "Courier";
 color:#0000BB;
 font-size:1.8em;
 text-align:center;
-clear:right;
+clear:all;
 }
 
 table.heading{
@@ -254,7 +255,7 @@ float:left;
 font-size:2em;
 color:#0000bb;
 top:-20px;
-clear:both;
+clear:all;
 margin-bottom:-2vw;
 }
 
