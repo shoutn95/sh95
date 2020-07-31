@@ -13,7 +13,7 @@
     
     <title>shoutn95</title>
 </head>
-<body onload="shoutn95.loadFrontJSONform();shoutn95._getFront0withLatestContent ();">
+<body onload="shoutn95.loadFrontJSONform();LoadOnce();">
 <!-- load  random youtube or whatelse-->
 <div id="page">
     <div id="head">
@@ -22,6 +22,11 @@
     <div id="contents"></div>
     <div id="_latestContent"></div>
 <script type="text/javascript">
+
+function LoadOnce() 
+{ 
+    shoutn95._getFront0withLatestContent();<!-- latestContent -->
+} 
 function run(){
 
     shoutn95._message0();
@@ -56,7 +61,6 @@ new run();
     
 <script type="text/javascript">
     shoutn95._staticfiles("APPLICATIONS");
-    <!-- latestContent -->
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
     
