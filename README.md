@@ -1,2 +1,2 @@
-# shoutn95 (2020)
+# shoutn95
 https://shoutn95.github.io/sh95/
