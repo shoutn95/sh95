@@ -52,7 +52,7 @@ font-weight:normal;
 color:#666;
 margin-top:20px;
 display:inline;
-clear:both;
+clear:all;
 width:80%;
 }
 
@@ -156,7 +156,7 @@ table.right{
 width:30%; 
 display:block;
 float:right;
-margin-top: -40px;
+margin-top: 0px;
 margin-left:20px;
 margin-right:10px;
 margin-bottom:20px;
@@ -165,7 +165,7 @@ font-size:2vw;
 color:#0000BB;
 font-size:1.8em;
 text-align:center;
-clear:left;
+clear:all;
 } 
 
 table.left{
