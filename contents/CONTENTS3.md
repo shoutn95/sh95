@@ -4,10 +4,6 @@
 |_Infogrames with Bruno Bonnell, a major editor in France in the past 80's. Pink Panther (Uk).|
 {.left}
 ### Todays if you own a Windows computer, you may feel frusted for playing games. Some specialized stores do not sell anymore PC games; and if they do, you probably will find an empty box with no physical DVD or blue-ray discs. You are aware with a serial number for downloading the games from a specialized digital store.<br /> Why do I say returning to the "antic" ages ? Original personnal mashines (Spectrum, Amstrad, Commodore) were provided with data system tapes (K7). Loading a game took a long time, long enough for waiting with a well pictured and digitalized painting that hand and foot your monitor screen, with synthesis audio while datas decrunching, until the game start up with a welcome menu.<br />
-|![image](https://shoutn95.github.io/sh95/images/ezgif.com-gif-to-apng.png)|
-|-|
-|_Decrunching datas took some times with animated stripe lightning (e.g. an Amiga screen decrunching from demoscene)_|
-{.left}
 ### Today you buy a license with a serial number or digital money to download games datas. Also, it needs to manage this time which can take a couple of hours with the same freeze screens that sequence the game context before its launching; as it was with my original game tapes - and floppies, in the 80's years. 
 |![image](https://shoutn95.github.io/sh95/images/photo-8.jpeg)|
 |-|
