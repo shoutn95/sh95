@@ -34,10 +34,6 @@
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
-	
-	window.onhashchange = function() {
-		new run();
-	}
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
