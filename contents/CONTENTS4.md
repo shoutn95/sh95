@@ -27,4 +27,4 @@
 |-|
 ||
 {.heading}
-### 
+### Galaxies are pleiade of stars from a clouded nebula they trend into a spîral following the massive gravitational mass of compact particules. 
