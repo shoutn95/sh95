@@ -27,4 +27,9 @@
 |-|
 ||
 {.heading}
-### Galaxies are pleiade of stars from a clouded nebula they trend into a spîral following the massive gravitational mass of compact particules. 
+### Galaxies are pleiade of stars from a clouded nebula they trend into a spîral following the massive gravitational mass of compact particules. <br />
+|![image](https://shoutn95.github.io/sh95/images/p236.jpg )|
+|-|
+||
+{.heading}
+### Particules are the source of the material they can be compressed and solid without movement or evanescent like a gaz. Water and liquids are a kind of a compromis stage. Movement and heat define the kind of link between primary elements.
