@@ -27,12 +27,20 @@
 <script type="text/javascript">
 
 <!-- refresh page -->
+	
     if(location.search.indexOf('reload') < 0){
         var hash = window.location.hash;
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
+	
+	window.onhashchange = function() {
+		var hash = window.location.hash;
+        var loc = window.location.href.replace(hash, '');
+        loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
+        setTimeout(function(){window.location.href = loc + hash;}, 1000);
+	}
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
