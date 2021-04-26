@@ -8,4 +8,9 @@
 |-|
 ||
 {.heading}
-### A mechanic pictures of the universal system with the sun centered, everything all around.
+### A mechanic pictures of the universal system with the sun centered, everything all around (Copernic).<br />
+|![image](https://shoutn95.github.io/sh95/images/p77.jpg )|
+|-|
+||
+{.heading}
+### Venus, as an "evening star" just after the sunset and an apple gold from Lucifer ringing the doors to be openned.    
