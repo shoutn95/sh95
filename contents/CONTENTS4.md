@@ -1,6 +1,11 @@
-## 1961, with Murchie...
+## 1961, with Guy Murchie...
 |![image](https://shoutn95.github.io/sh95/images/p36.jpg )|
 |-|
-|_Infogrames with Bruno Bonnell, a major editor in France in the past 80's. Pink Panther (Uk).|
+|-|
 {.left}
-### Todays if you own a Windows computer, you may feel frusted for playing games. Some specialized stores do not sell anymore PC games; and if they do, you probably will find an empty box with no physical DVD or blue-ray discs. You are aware with a serial number for downloading the games from a specialized digital store.<br /> Why do I say returning...
+### A small idea about gravitation that Newton next to other avant-gardes try to define. May be as a maelstrom where heaviness as a kind of attraction prevent and fix to the lower base where ascention can be compared with impetus and movement.
+|![image](https://shoutn95.github.io/sh95/images/p73.jpg )|
+|-|
+|-|
+{.left}
+
