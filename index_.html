@@ -36,10 +36,7 @@
     }
 	
 	window.onhashchange = function() {
-		var hash = window.location.hash;
-        var loc = window.location.href.replace(hash, '');
-        loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
-        setTimeout(function(){window.location.href = loc + hash;}, 1000);
+		new run();
 	}
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
