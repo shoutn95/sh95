@@ -3,14 +3,19 @@
 |-|
 ||
 {.heading}
-### A small idea about gravitation that Newton next to other avant-gardes try to define. May be as a maelstrom where heaviness as a kind of attraction prevent and fix to the lower base where ascention can be compared to impetus and movement.<br />
+### A small idea about gravitation, a maelstrom where heaviness as a kind of attraction prevent and fix to the lower base where ascention can be compared to impetus and movement.<br />
 |![image](https://shoutn95.github.io/sh95/images/p73.jpg )|
 |-|
 ||
 {.heading}
-### A mechanic pictures of the universal system with the sun centered, everything all around (Copernic).<br />
+### A mechanic pictures of the universal and new system with the sun centered, everything all around (Copernic).<br />
 |![image](https://shoutn95.github.io/sh95/images/p77.jpg )|
 |-|
 ||
 {.heading}
-### Venus, as an "evening star" just after the sunset and an apple gold from Lucifer ringing the doors to be openned.    
+### Venus, as an "evening star" just after the sunset and the apple gold from Lucifer (lux) ringing the doors to be openned. The second after Mercury. <br />
+|![image](https://shoutn95.github.io/sh95/images/p122.jpg )|
+|-|
+||
+{.heading}
+### Comets from the outer space traveling above and over head tiredness by the flashing sun in some long haired tails .
