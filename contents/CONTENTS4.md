@@ -32,4 +32,9 @@
 |-|
 ||
 {.heading}
-### Particules are the source of the material they can be compressed and solid without movement or evanescent like a gaz. Water and liquids are a kind of a compromis stage. Movement and heat define the kind of link between primary elements.
+### Particules are the source of the material they can be compressed and solid without movement or evanescent like a gaz. Water and liquids are a kind of a compromis stage. Movement and heat define the kind of link between primary elements. <br />
+|![image](https://shoutn95.github.io/sh95/images/p313.jpg )|
+|-|
+||
+{.heading}
+### *Music of the Spheres* is a kind of science since the primary ages where philosophic masters have the premonition of harmonies.
