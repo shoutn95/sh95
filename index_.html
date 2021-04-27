@@ -27,18 +27,7 @@
     <div id="contents"></div>
     <div id="_latestContent"></div>
 <script type="text/javascript">
-	
-	if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
-     	$(window).bind('pageshow', function() {
-        // This event is called only by FireFox. Because Firefox doesn't reload the page when the user uses the back button,
-        // or when we call history.go.back(), we need to force the reload for the applicatino to work similar to Chrome and IE (11 at least).
-
-        // Doc: https://developer.mozilla.org/en-US/docs/Listening_to_events_in_Firefox_extensions
-        location.reload();
-    	}); // Do Firefox-related activities
-	}
 <!-- refresh page --> 
-	
     if(location.search.indexOf('reload') < 0){
         var hash = window.location.hash;
         var loc = window.location.href.replace(hash, '');
