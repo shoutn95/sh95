@@ -2,10 +2,10 @@
 <html>
 <head>
     <title>shoutn95</title>
-	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-	<META HTTP-EQUIV="Expires" CONTENT="-1">
+	<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<meta HTTP-EQUIV="Expires" CONTENT="-1">
     <meta name="description" content="shoutn95:thoughts and words about video-games, multimedia, internet, music, synthetizer...">
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=yes, minimum-scale=1,user-scalable=yes, viewport-fit=auto">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet00.css" media="screen and (min-width:800px)" > 
@@ -29,6 +29,14 @@
 <script type="text/javascript">
 
 <!-- refresh page -->
+	
+	$(window).bind('pageshow', function() {
+        // This event is called only by FireFox. Because Firefox doesn't reload the page when the user uses the back button,
+        // or when we call history.go.back(), we need to force the reload for the applicatino to work similar to Chrome and IE (11 at least).
+
+        // Doc: https://developer.mozilla.org/en-US/docs/Listening_to_events_in_Firefox_extensions
+        location.reload();
+    }); 
 	
     if(location.search.indexOf('reload') < 0){
         var hash = window.location.hash;
