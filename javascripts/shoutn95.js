@@ -125,28 +125,6 @@ shoutn95._getFront0withLatestContent=function()
       {
          $("#_latestContent").html("<h1>Read more articles listed below</h1>");
          
-         /*var html_=[];
-         var md_ = window.markdownit("default",{html:true});      
-               for(var n=0;n<content_.length;n++){
-                  if(n=>0){
-                  jQuery.get(content_[n],function(data){
-                     html_.push($(md_.render(data)).html());
-                     //console.log(html_);
-                     if(n==html_.length){
-                        html_.reverse();
-                        console.log(html_);
-                        content-=1;
-                        //html_=html_.reverse();
-                        //console.log(html_);
-                        for(j=0;j<html_.length;j++){
-                            //console.log(content);
-                           $("#_latestContent ").append("<a href='"+shoutn95.url+"?page="+content+"'>"+"##"+html_[j]+"</a><br />");
-                           content-=1;
-                        }   
-                     }
-                  });
-                  }
-               }*/
       }
    
    }   
