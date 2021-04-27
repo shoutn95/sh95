@@ -37,6 +37,10 @@
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
 	
+	window.onhashchange = function() {
+		alert("toto");
+	}
+	
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
