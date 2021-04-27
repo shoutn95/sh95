@@ -35,13 +35,7 @@
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
-    }
-	
-	window.onhashchange = function() {
- 		location.reload();
-	}
-	
-            
+    }            
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -81,7 +75,7 @@ new run();
     
 <script type="text/javascript">
     shoutn95.loadFrontJSONform();
-    shoutn95._getFront0withLatestContent();
+    //shoutn95._getFront0withLatestContent();
     shoutn95._staticfiles("APPLICATIONS");
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
