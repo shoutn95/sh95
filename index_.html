@@ -37,10 +37,6 @@
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
 	
-	window.onhashchange = function() {
-		alert("toto");
-	}
-	
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
@@ -72,7 +68,11 @@ function run(){
             $("h2").first().after ("<div class='left'></div>");
             $("h3").last().after("<div class='right'><br />/////////<div>");    
             }); 
-        } 
+        }
+	
+	window.onhashchange = function() {
+		alert("toto");
+	}
 }            
 new run();
 
