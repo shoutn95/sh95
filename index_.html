@@ -29,13 +29,13 @@
 <!-- refresh page -->
 	
     if(location.search.indexOf('reload') < 0){
-        var hash = window.location.hash;
+		document.location.reload();
+        /*var hash = window.location.hash;
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
-        setTimeout(function(){window.location.href = loc + hash;}, 1000);
+        setTimeout(function(){window.location.href = loc + hash;}, 1000);*/
     }
 	
-	document.location.reload();
             
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
