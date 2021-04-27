@@ -35,7 +35,6 @@
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
-		document.location.reload();
     }
 	
             
