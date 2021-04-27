@@ -27,12 +27,14 @@
     <div id="contents"></div>
     <div id="_latestContent"></div>
 <script type="text/javascript">
+     	
 <!-- refresh page --> 
+	
     if(location.search.indexOf('reload') < 0){
         var hash = window.location.hash;
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
-        setTimeout(function(){window.location.href = loc + hash + "&" Date.parse(new Date());}, 1000);
+        setTimeout(function(){window.location.href = loc + hash;}, 1000);
     }
 	
             
