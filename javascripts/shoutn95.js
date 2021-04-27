@@ -125,7 +125,7 @@ shoutn95._getFront0withLatestContent=function()
       {
          $("#_latestContent").html("<h1>Read more articles listed below</h1>");
          
-         var html_=[];
+         /*var html_=[];
          var md_ = window.markdownit("default",{html:true});      
                for(var n=0;n<content_.length;n++){
                   if(n=>0){
@@ -146,7 +146,7 @@ shoutn95._getFront0withLatestContent=function()
                      }
                   });
                   }
-               }
+               }*/
       }
    
    }   
