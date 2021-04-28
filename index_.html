@@ -13,7 +13,6 @@
     <script type="text/javascript" src="javascripts/jQuery.js" ></script>
     <script type="text/javascript" src="javascripts/markdown-it.js"></script>
     <script type="text/javascript" src="javascripts/markdown-it-attrs.js"></script>
-	<script type="text/javascript" src="javascripts/reload.js"></script>
     <script src="javascripts/shoutn95.js" type="text/javascript "></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174189327-1"></script>
 
@@ -31,12 +30,12 @@
      	
 <!-- refresh page --> 
 	
-    /*if(location.search.indexOf('reload') < 0){
+    if(location.search.indexOf('reload') < 0){
         var hash = window.location.hash;
         var loc = window.location.href.replace(hash, '');
         loc += (loc.indexOf('?') < 0? '?' : '&') + 'reload';
         setTimeout(function(){window.location.href = loc + hash;}, 1000);
-    } */
+    }
 	
 <!-- Global site tag (gtag.js) - Google Analytics -->
     window.dataLayer = window.dataLayer || [];
