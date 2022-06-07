@@ -4,7 +4,7 @@
 ### And for now, we produce more and more pictures, motion pictures, motion pictures with audio sync... that can be done quickly. From the past we gain time, quality and quantity everyone focussed with programs and music, video games, internet and TV.
 ### A little tip for making your video sync with audio; extract the waveforme from your audio and transform it as image keys. Now you will be able to sync the waveform as keys. It is a good start to make mess or sync with an other layer object with his parameters linked to the "waveforme".{.tip}
 
-### [Tweet me !](https://twitter.com/intent/tweet?text=New%20from%20%23shoutn95...%20Adobe or not Adobe%20%0Dhttps://shoutn95.github.io/sh95/index_.html?page=2&reload%20with%20%23github%20and%20%23twitter){.hea2}
+### [Tweet me !](https://twitter.com/intent/tweet?text=New%20from%20%23shoutn95...%20Adobe%or not%20to%20be%20%0Dhttps://shoutn95.github.io/sh95/index_.html?page=2&reload%20with%20%23github%20and%20%23twitter){.hea2}
 
 |![image](https://shoutn95.github.io/sh95/images/photo-3.jpeg )|
 |-|
