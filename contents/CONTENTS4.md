@@ -38,3 +38,5 @@
 ||
 {.heading}
 ### *Music of the Spheres* is a kind of science since the primary ages where philosophic masters have the premonition of harmonies.
+
+### [Tweet me !](https://twitter.com/intent/tweet?text=New%20from%20%23shoutn95...%20%0Dhttps://shoutn95.github.io/sh95/index_.html?page=4&reload%20with%20%23github%20and%20%23twitter){.hea2}
