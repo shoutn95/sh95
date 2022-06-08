@@ -7,7 +7,7 @@
 
 |![image](https://shoutn95.github.io/sh95/images/photo-4.jpeg )|
 |-|
-|_Adobe Creative Suite offers a confortable range for graphics and sound development|
+||
 {.heading}
 
 <style type='text/css'>
