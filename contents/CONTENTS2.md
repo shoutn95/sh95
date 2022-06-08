@@ -8,7 +8,7 @@
 |![image](https://shoutn95.github.io/sh95/images/photo-4.jpeg )|
 |-|
 ||
-{.heading}
+{.left}
 
 <style type='text/css'>
 .tip{
