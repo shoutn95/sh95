@@ -7,7 +7,7 @@
 
 |![image](https://shoutn95.github.io/sh95/images/photo-4.jpeg )|
 |-|
-|_Infogrames with Bruno Bonnell, a major editor in France in the past 80's. Pink Panther (Uk).|
+||
 {.left}
 
 <style type='text/css'>
