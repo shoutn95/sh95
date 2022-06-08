@@ -30,7 +30,6 @@ padding:1em;
 line-height:1em;
 display:block;
 height:-30px;
-width:200px;
 font-size:1.4em;
 font-width:bold;
 color:#dc143c;
@@ -39,6 +38,8 @@ float:right;
 margin-top:30px;
 margin-right:30px;
 margin-bottom: 30px;
+white-space: nowrap;
+overflow: hidden;
 }
 
 #top{
