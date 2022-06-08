@@ -5,9 +5,7 @@
 
 ### [Tweet me!](https://twitter.com/intent/tweet?text=Nouvelles%20from%20%23shoutn95...%0D%20%23adobe%20or%20%23notobe...%20%0Dhttps://shoutn95.github.io/sh95/index_.html?page=2&reload){.hea2}
 
-### A little tip for making your video sync with audio; extract the waveforme from your audio and transform it as image keys. Now you will be able to sync the waveform as keys. It is a good start to make mess or sync with an other layer object with his parameters linked to the "waveforme".{.tip}
-
-|![image](https://shoutn95.github.io/sh95/images/photo-3.jpeg )|
+|![image](https://shoutn95.github.io/sh95/images/photo-4.jpeg )|
 |-|
 ||
 {.heading}
