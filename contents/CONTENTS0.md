@@ -1,4 +1,4 @@
-#### *Follow me, with social networks!<br />[Youtube](https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA) \ [Instagram](https://www.instagram.com/shoutn95/)<br />[Twitter](https://twitter.com/shoutn95)<br />{.hea}
+#### *Follow me, with social networks!<br />[Youtube](https://www.youtube.com/channel/UCR99hpq-MqEr7_w247T6UMA) \ [Twitter](https://twitter.com/shoutn95)<br />[Instagram](https://www.instagram.com/shoutn95/)<br />{.hea}
 |![image](https://shoutn95.github.io/sh95/images/photo-2.jpeg)|
 |-|
 ||
