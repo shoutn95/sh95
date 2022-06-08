@@ -39,4 +39,4 @@
 {.heading}
 ### *Music of the Spheres* is a kind of science since the primary ages where philosophic masters have the premonition of harmonies.
 
-### [Tweet me !](https://twitter.com/intent/tweet?text=Guybrush%20Threepwood%20in%20outer%20space...%20%0D%23guybrush_threepwood%0Dhttps://shoutn95.github.io/sh95/index_.html?page=4&reload){.hea2}
+### [Tweet me!](https://twitter.com/intent/tweet?text=Guybrush%20Threepwood%20in%20outer%20space...%20%0D%23guybrush_threepwood%0Dhttps://shoutn95.github.io/sh95/index_.html?page=4&reload){.hea2}
