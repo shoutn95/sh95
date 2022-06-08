@@ -7,7 +7,7 @@
 
 |![image](https://shoutn95.github.io/sh95/images/photo-4.jpeg )|
 |-|
-|&nbsp;2|
+||
 {.heading}
 
 <style type='text/css'>
