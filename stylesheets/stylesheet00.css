@@ -27,12 +27,13 @@ padding:1em;
 line-height:1em;
 display:block;
 height:-30px;
-width:150px;
+width:180px;
 font-size:1em;
 font-weight: bold;
 color:#dc143c;
 background-color: #fff;
 float:right;
+margin-right:30px;
 }
 
 .hea a{
