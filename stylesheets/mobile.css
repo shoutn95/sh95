@@ -24,6 +24,21 @@ margin-top:20px;
     font-size:1.3em;
 }
 
+.hea2{
+padding:1em;
+line-height:1em;
+display:block;
+height:-30px;
+width:180px;
+font-size:1em;
+font-weight: bold;
+color:#dc143c;
+background-color: #fff;
+float:right;
+margin-right:30px;
+margin-bottom: 30px;
+}
+
 #top{
     font-family:"Courier New";
     width:50%;
@@ -79,7 +94,7 @@ margin-left:auto;
 margin-right:auto;
 padding:20px;
 background-color:#111;
-width:100%; 
+width:100%;
 box-shadow: 10px 5px 5px black;
 clear:both;
 overflow:hidden;
@@ -116,7 +131,7 @@ clear:both;
 
 h1{font-size:3em;
 color:#dc143c;
-font-weight:normal;    
+font-weight:normal;
 text-decoration:underline;
 clear:both;
 line-height:1em;
@@ -146,7 +161,7 @@ clear:both;
 margin-right:1%;
 clear:both;
 line-height:2em ;
-margin-bottom:6em; 
+margin-bottom:6em;
 }
 
 #_latestContent a{
@@ -170,7 +185,7 @@ table tr:nth-last-child{
 text-align:left;
 }
 table.right{
-width:40%; 
+width:40%;
 display:block;
 float:right;
 margin-top: 20px;
@@ -180,7 +195,7 @@ font-family : "Courier";
 color:#0000BB;
 text-align:center;
 clear:left;
-} 
+}
 
 table.left{
 width:100%;
@@ -197,7 +212,7 @@ clear:right;
 }
 
 table.heading{
-width:100%; 
+width:100%;
 display:block;
 float:left;
 margin-top:0px;
@@ -240,14 +255,14 @@ table img{
 
 #front{
 overflow:hidden;
-padding-bottom:56.25%; 
-position:relative; 
+padding-bottom:56.25%;
+position:relative;
 height:0;
 }
 
 #front iframe  {
-left:0; 
-top:0; 
+left:0;
+top:0;
 height:100%;
 width:100%;
 position:absolute;
