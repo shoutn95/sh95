@@ -65,11 +65,29 @@ function run(){
         jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md", function(data){
             $("#contents").html(md.render( data ));
             $("h2").first().after ("<div class='left'></div>");
-            $("h3").last().after("<div class='right'><div>");    
+            $("h3").last().after("<div class='right'><div>");
             });
         }
 }
 new run();
+
+var $window = $(window);
+var $videoWrap = $('.video-wrap');
+var $video = $('.video');
+var videoHeight = $video.outerHeight();
+
+$window.on('scroll',  function() {
+var windowScrollTop = $window.scrollTop();
+var videoBottom = videoHeight + $videoWrap.offset().top;
+
+if (windowScrollTop > videoBottom) {
+  $videoWrap.height(videoHeight);
+  $video.addClass('stuck');
+} else {
+  $videoWrap.height('auto');
+  $video.removeClass('stuck');
+}
+});
 
 </script>
 <div id="footer"></div>
