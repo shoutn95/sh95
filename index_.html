@@ -71,24 +71,6 @@ function run(){
 }
 new run();
 
-var $window = $(window);
-var $videoWrap = $('.video-wrap');
-var $video = $('.video');
-var videoHeight = $video.outerHeight();
-
-$window.on('scroll',  function() {
-var windowScrollTop = $window.scrollTop();
-var videoBottom = videoHeight + $videoWrap.offset().top;
-
-if (windowScrollTop > videoBottom) {
-  $videoWrap.height(videoHeight);
-  $video.addClass('stuck');
-} else {
-  $videoWrap.height('auto');
-  $video.removeClass('stuck');
-}
-});
-
 </script>
 <div id="footer"></div>
 
@@ -98,6 +80,24 @@ if (windowScrollTop > videoBottom) {
     shoutn95._staticfiles("APPLICATIONS");
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
+
+    var $window = $(window);
+    var $videoWrap = $('.video-wrap');
+    var $video = $('.video');
+    var videoHeight = $video.outerHeight();
+
+    $window.on('scroll',  function() {
+    var windowScrollTop = $window.scrollTop();
+    var videoBottom = videoHeight + $videoWrap.offset().top;
+
+    if (windowScrollTop > videoBottom) {
+      $videoWrap.height(videoHeight);
+      $video.addClass('stuck');
+    } else {
+      $videoWrap.height('auto');
+      $video.removeClass('stuck');
+    }
+    });
 
 <!-- load footer-->
 </script>
