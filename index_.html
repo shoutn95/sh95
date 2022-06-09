@@ -28,6 +28,24 @@
     <div id="_latestContent"></div>
 <script type="text/javascript">
 
+  var $window = $(window);
+  var $videoWrap = $('.video-wrap');
+  var $video = $('.video');
+  var videoHeight = $video.outerHeight();
+
+  $window.on('scroll',  function() {
+      var windowScrollTop = $window.scrollTop();
+      var videoBottom = videoHeight + $videoWrap.offset().top;
+
+      if (windowScrollTop > videoBottom) {
+        $videoWrap.height(videoHeight);
+        $video.addClass('stuck');
+      } else {
+          $videoWrap.height('auto');
+          $video.removeClass('stuck');
+        }
+      });
+
 <!-- refresh page -->
 
     if(location.search.indexOf('reload') < 0){
@@ -47,7 +65,7 @@
 function run(){
 
     shoutn95._message0();
-    
+
     var md = window.markdownit("default",{html:true});
 
     md.use(markdownItAttrs, {

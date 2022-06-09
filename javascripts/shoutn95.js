@@ -17,7 +17,7 @@ shoutn95._message0= function(){
 
 shoutn95.loadFront=function(video)
 {
-   return("<div class='playerembed'><iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen gesture='media'></iframe></div>");
+   return("<div class='video-wrap'><div class='video'><div class='playerembed'><iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen gesture='media'></iframe></div></div></div>");
 }
 
 shoutn95.createlinksToContent=function(contents){
