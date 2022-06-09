@@ -15,29 +15,9 @@ shoutn95._message0= function(){
    }
 }
 
-shoutn95.scrollFrontVideo=function(){
-  var $window = $(window);
-  var $videoWrap = $('.video-wrap');
-  var $video = $('.video');
-  var videoHeight = $video.outerHeight();
-
-  $window.on('scroll',  function() {
-  var windowScrollTop = $window.scrollTop();
-  var videoBottom = videoHeight + $videoWrap.offset().top;
-
-  if (windowScrollTop > videoBottom) {
-    $videoWrap.height(videoHeight);
-    $video.addClass('stuck');
-  } else {
-    $videoWrap.height('auto');
-    $video.removeClass('stuck');
-  }
-  });   
-}
-
 shoutn95.loadFront=function(video)
 {
-   return("<div class='video-wrap'><div class='video'><iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen gesture='media'></iframe></div></div>");
+   return("<div class='playerembed'><iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen gesture='media'></iframe></div>");
 }
 
 shoutn95.createlinksToContent=function(contents){
