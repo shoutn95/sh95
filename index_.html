@@ -47,7 +47,7 @@
 function run(){
 
     shoutn95._message0();
-
+    
     var md = window.markdownit("default",{html:true});
 
     md.use(markdownItAttrs, {
@@ -81,15 +81,6 @@ new run();
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
 
-    let playAfterThisHeight = 200
-      $(document).scroll(function() {
-        if ($(document).scrollTop()> playAfterThisHeight) {
-           $('.playerembed').trigger('play');
-
-     }    else {
-          $('.playerembed').trigger('pause');
-     }
- })
 <!-- load footer-->
 </script>
 <div id="sub"></div>
