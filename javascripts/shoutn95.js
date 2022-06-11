@@ -9,7 +9,9 @@ shoutn95.json = "init.json";
 shoutn95.ascii= function(){
 
    if (shoutn95.GetURLParameter('page')==0){
-      $("#top").load("./.ascii");
+
+      $("#top").load("./ascii.txt");
+
    }
 }
 
