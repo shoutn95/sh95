@@ -9,9 +9,7 @@ shoutn95.json = "init.json";
 shoutn95.ascii= function(){
 
    if (shoutn95.GetURLParameter('page')==0){
-
-      $("#top").load("./contents/ascii.txt");
-
+      $("#top").load("./.ascii");
    }
 }
 
@@ -181,5 +179,11 @@ shoutn95.GetURLParameter = function(sParam)
       }
 
       }
+
+}
+
+shoutn95.GetLatestfromInstagram = function()
+{
+
 
 }
