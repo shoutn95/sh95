@@ -150,10 +150,6 @@ shoutn95._getFront0withLatestContent=function()
 
 shoutn95._getContentfromInstagram = function(param=null)
 {
-  fields_ID = shoutn95._getFields_();
-  access_token = shoutn95._getAccess_token_();
-
-console.log(fields_ID);
 
 
 }
