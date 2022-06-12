@@ -176,7 +176,7 @@ shoutn95._getContentfromInstagram = function(param=null)
 
     if(shoutn95.GetURLParameter('page')==0)
     {
-      $("#_instagram_").html(media_);
+      return media_;
 
     }
 
