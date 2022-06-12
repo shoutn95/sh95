@@ -3,7 +3,7 @@ obj=null;
 var shoutn95 = function() {}
 
 shoutn95.url = "https://shoutn95.github.io/sh95/";
-shoutn95.url0 = "https://graph.instagram.com/"
+shoutn95.url0 = "https://graph.instagram.com/";
 shoutn95.json = "init.json";
 
 
@@ -145,12 +145,6 @@ shoutn95._getFront0withLatestContent=function()
       }
 
    }
-
-}
-
-shoutn95._getContentfromInstagram = function(param=null)
-{
-
 
 }
 

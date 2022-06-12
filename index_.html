@@ -67,7 +67,7 @@ function run(){
     }else{
         jQuery.get("contents/CONTENTS" +shoutn95.GetURLParameter('page') + ".md", function(data){
             $("#contents").html(md.render( data ));
-            $("h2").first().after ("<div class='left'></div>");
+            $("h2").first().after ("<div class=console.log(); // 'left'></div>");
             $("h3").last().after("<div class='right'><div>");
             });
         }
@@ -83,7 +83,6 @@ new run();
     shoutn95.loadFrontJSONform();
     shoutn95._getFront0withLatestContent();
     shoutn95._staticfiles("APPLICATIONS");
-    shoutn95._getContentfromInstagram();
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
 
