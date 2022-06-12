@@ -63,22 +63,6 @@ shoutn95.loadFooterJSONcontent=function()
       }
 }
 
-shoutn95.loadMedia_IDinstagram_d=function()
-{
-
-  if (shoutn95.GetURLParameter('page')==0)
-  {
-      ID_Media_ = new XMLHttpRequest();
-      ID_Media_.open("GET",this.url0+,true);
-      ID_Media_.send(null);
-      ID_Media_.onload = function {
-        latest_=
-
-        https://graph.instagram.com/me/media?fields=&access_token=
-
-    }
-  }
-}
 
 shoutn95.parseID_MediaJSON=function()
 {
