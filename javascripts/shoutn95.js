@@ -6,12 +6,9 @@ shoutn95.url = "https://shoutn95.github.io/sh95/";
 shoutn95.json = "init.json";
 
 
-shoutn95._message0= function(){
-
+shoutn95.ascii= function(){
    if (shoutn95.GetURLParameter('page')==0){
-
       $("#top").load("./contents/ascii.txt");
-
    }
 }
 
