@@ -169,19 +169,7 @@ shoutn95._getContentfromInstagram = function(param=null)
   fields_ID = shoutn95._getFields_();
   access_token = shoutn95._getAccess_token_();
 
-  media_ = new XMLHttpRequest();
-  media_.open("GET",url0+"?fields="+fields_ID+"&access_token="+access_token);*
-  media_.send(null);
-  media_.onload = function(){
-
-    if(shoutn95.GetURLParameter('page')==0)
-    {
-      return media_;
-
-    }
-
-
-  }
+console.log(fields_ID);
 
 
 }
