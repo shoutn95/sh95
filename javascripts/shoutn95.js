@@ -3,7 +3,6 @@ obj=null;
 var shoutn95 = function() {}
 
 shoutn95.url = "https://shoutn95.github.io/sh95/";
-shoutn95.url0 = "https://graph.instagram.com/";
 shoutn95.json = "init.json";
 
 
@@ -107,18 +106,6 @@ shoutn95._getCountElementFromJSON=function(param=null){
    if(param["myContents"]) {
    myContentPages = param["myContents"];
       return myContentPages.length;
-   }
-}
-
-shoutn95._getAccess_token_=function(param=null){
-   if(param["token"]) {
-      return param["token"];
-   }
-}
-
-shoutn95._getFields_=function(param=null){
-   if(param["id_app"]) {
-      return param["id_app"];
    }
 }
 
