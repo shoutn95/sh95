@@ -148,13 +148,6 @@ shoutn95._getFront0withLatestContent=function()
 
 }
 
-shoutn95._getLatestUserMediaInstagram=function()
-{
-  console.log(`Instagram____`);
-
-
-}
-
 shoutn95.back_returnPrecedent = function()
 {
 
