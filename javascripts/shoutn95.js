@@ -2,16 +2,15 @@
 obj=null;
 var shoutn95 = function() {}
 
-shoutn95.url = "https://shoutn95.github.io/sh95/"
+shoutn95.url = "https://shoutn95.github.io/sh95/";
+shoutn95.url0 = "https://graph.instagram.com/"
 shoutn95.json = "init.json";
 
 
 shoutn95.ascii= function(){
 
    if (shoutn95.GetURLParameter('page')==0){
-
       $("#top").load("./ascii.txt");
-
    }
 }
 
@@ -56,12 +55,35 @@ shoutn95.loadFrontJSONform=function()
 shoutn95.loadFooterJSONcontent=function()
 {
    footer_ = new XMLHttpRequest();
-   footer_.open("GET",this.json,true);
+   footer_.open("GET",this.url,true);
    footer_.send(null);
    footer_.onload = function() {
          content = shoutn95._getCountElementFromJSON(shoutn95.parseLinksJSON());
          $("#footer").html(shoutn95.createlinksToContent(content));
       }
+}
+
+shoutn95.loadMedia_IDinstagram_d=function()
+{
+
+  if (shoutn95.GetURLParameter('page')==0)
+  {
+      ID_Media_ = new XMLHttpRequest();
+      ID_Media_.open("GET",this.url0+,true);
+      ID_Media_.send(null);
+      ID_Media_.onload = function {
+        latest_=
+
+        https://graph.instagram.com/me/media?fields=&access_token=
+
+    }
+  }
+}
+
+shoutn95.parseID_MediaJSON=function()
+{
+   return JSON.parse(ID_Media_.responseText);
+
 }
 
 shoutn95.parseFrontJSON=function()
@@ -104,6 +126,18 @@ shoutn95._getCountElementFromJSON=function(param=null){
    }
 }
 
+shoutn95._getAccess_token_=function(param=null){
+   if(param["token"]) {
+      return param["token"];
+   }
+}
+
+shoutn95._getFields_=function(param=null){
+   if(param["id_app"]) {
+      return param["id_app"];
+   }
+}
+
 shoutn95._getFront0withLatestContent=function()
 {
 
@@ -127,6 +161,28 @@ shoutn95._getFront0withLatestContent=function()
       }
 
    }
+
+}
+
+shoutn95._getContentfromInstagram = function(param=null)
+{
+  fields_ID = shoutn95._getFields_();
+  access_token = shoutn95._getAccess_token_();
+
+  media_ = new XMLHttpRequest();
+  media_.open("GET",url0+"?fields="+fields_ID+"&access_token="+access_token);*
+  media_.send(null);
+  media_.onload = function(){
+
+    if(shoutn95.GetURLParameter('page')==0)
+    {
+      $("#_instagram_").html(media_);
+
+    }
+
+
+  }
+
 
 }
 
@@ -181,11 +237,5 @@ shoutn95.GetURLParameter = function(sParam)
       }
 
       }
-
-}
-
-shoutn95.GetLatestfromInstagram = function()
-{
-
 
 }
