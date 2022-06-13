@@ -28,8 +28,8 @@ _instagram_.get_media_url = function()
               // $("#latest_instagram").html("<table><tr><td><b>Nouvelles from instagram <u>@shoutn95</u></b></td></tr><tr><td></td></tr></table>");
             }//
             //$("#latest_instagram").html("<img src='"+instagram+"' />");
-
-            return instagram;
+            $("#latest_instagram").html("<table><tr><td>Nouvelles from <a href=''>@Instagram</a> with <a href=''>@shoutn95</a></td></tr><tr><td></td></tr><tr><td></td></tr></table");
+            //return instagram;
         }
   }
 }
