@@ -22,7 +22,11 @@ _instagram_.get_media_url = function()
         media_url.send(obj);
         media_url.onload=function() {
             instagram= _instagram_.PARSE_Media_URLfromJSON();
-            //$("#latest_instagram").html("<table><tr><td>Nouvelles from <a href=''>@Instagram</a> with <a href=''>@shoutn95</a></td></tr><tr><td></td></tr><tr><td></td></tr></table");
+
+            if (shoutn95.GetURLParameter('page')==0)
+            {
+              $("#latest_instagram").html("<table><tr><td>Nouvelles from <a href=''>@Instagram</a> with <a href=''>@shoutn95</a></td></tr><tr><td></td></tr><tr><td></td></tr></table");
+            }
             //console.log(instagram);
 
             //if(shoutn95.GetURLParameter('page')==0){
