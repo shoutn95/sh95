@@ -26,7 +26,7 @@ _instagram_.get_media_url = function()
 
             if(shoutn95.GetURLParameter('page')==0){
                $("<div id='latest_instagram'</div>").insertAfter("#contents");
-               $("#latest_instagram").html("<table><tr><td><b>Nouvelles from instagram <u>@shoutn95</u></b></td></tr><tr><td><img src='"+instagram+"' /><</td></tr></table>");
+               $("#latest_instagram").html("<table><tr><td><b>Nouvelles from instagram <u>@shoutn95</u></b></td></tr><tr><td><img src='"+instagram+"' /></td></tr></table>");
             }
 
 
