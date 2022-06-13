@@ -23,7 +23,7 @@ _instagram_.get_media_url = function()
         media_url.onload=function() {
             instagram= _instagram_.PARSE_Media_URLfromJSON();
             console.log(instagram);
-            $("#latest_instagram").html("<img src='"+instagram+"' />");
+            //$("#latest_instagram").html("<img src='"+instagram+"' />");
         }
   }
 }
