@@ -120,7 +120,9 @@ shoutn95._getFront0withLatestContent=function()
 
       if(shoutn95.GetURLParameter('page')==0)
       {
-         $("#_latestContent").html("<h1>Read more articles listed below</h1>");
+          // TODO
+          $("#latest_instagram").html("toto");
+          $("#_latestContent").html("<h1>Read more articles listed below</h1>");
 
       }
 
@@ -146,8 +148,8 @@ shoutn95._staticfiles  = function(page)
    var _return = "";
 
    if(shoutn95.GetURLParameter('page')==0){
-      $("<div id='_lateststatic' class='tip'></div>").insertAfter("#contents");
-      $("#_lateststatic").html("<h4><b>What about these applications_?</b></h4>");
+      $("<div id='latest_instagram'></div>").insertAfter("#_lateststatic");
+      $("#latest_instgram).html("<h4><b>What about these applications_?</b></h4>");
       $.get(_file, function( data ) {
          _return = md_.render(data.substr(0,380));
          data_replaced=_return.replace(/^(.{380}[^\s]*).*/, "$1") + "\n";
