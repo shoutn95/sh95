@@ -3,43 +3,59 @@ background-color:#222;
 color:#666;
 font-family:"Courier New";
 margin:0px;
-}
-
-a{color:#dc143c;
-line-height:18px;
-font-size:1em;
-}
-
-#top{
-display:none;
+margin-left:0px;
+font-size: 1em;
+line-height:2em;
 }
 
 .hea{
 line-height:1em;
 display:block;
 height:-30px;
-font-size:1.7em;
+font-size:1.4em;
 color:white;
+margin-left:5px;
+margin-bottom:2em;
+margin-top:20px;
+}
+
+.hea a{
+    line-height:1em;
+    font-size:1.3em;
 }
 
 .hea2{
-clear: both;
+clear:both;
 padding:1em;
 line-height:1em;
 display:block;
 height:-30px;
-width:180px;
-font-size:1em;
+font-size:1.4em;
+font-width:bold;
 color:#dc143c;
 background-color: #666;
 float:right;
 margin-top:30px;
 margin-right:30px;
 margin-bottom: 30px;
+white-space: nowrap;
+overflow: hidden;
 }
 
-.hea a{
-    font-size:1.4em;
+#top{
+    font-family:"Courier New";
+    width:50%;
+    display:block;
+    color:#0000bb;
+    font-size:2em;
+    white-space:normal;
+    margin-left:auto:
+    margin-right:auto;
+}
+
+a{color:#dc143c;
+font-size:1em;
+line-height:1vw;
 }
 
 a.currentPage{
@@ -59,17 +75,20 @@ font-weight:normal;
 
 #contents{
 clear:both;
+margin-left:0px;
 }
 
 h3,h4{
 font-family:"Courier New";
-font-size:1.8em;
 font-weight:normal;
+font-size:2em;
+line-height:1.2em;
 color:#666;
 margin-top:20px;
 display:inline;
-clear:all;
-width:80%;
+clear:both;
+margin-left:40px;
+padding-left:0vw;
 }
 
 .tip{
@@ -81,7 +100,8 @@ background-color:#111;
 width:100%;
 clear:both;
 overflow:hidden;
-}
+line-height:2.2em;
+ }
 
 .tip img{
 display:block;
@@ -94,16 +114,16 @@ color:#dc143c;
 }
 
 .suite{
+    color:#dc143c;
     font-size:2em;
- }
+}
 
 h2{
 font-family:"Courier New";
-font-size:1.5em;
+font-size:1.4em;
+line-height:1em;
 text-align:left;
 letter-spacing:0px;
-line-height:24px;
-margin-left:0px;
 color:#fff;
 font-weight:normal;
 font-style:italic;
@@ -111,11 +131,12 @@ width:80%;
 clear:both;
 }
 
-h1{font-size:2em;
+h1{font-size:3em;
 color:#dc143c;
 font-weight:normal;
 text-decoration:underline;
 clear:both;
+line-height:1em;
 }
 
 #footer{
@@ -129,34 +150,32 @@ height:200px;
 #footer a{
 font-size:2em;
 background-color:#333;
-padding:1vw;
+padding:2vw;
 }
 
-#front{
+/*#front{
 display:block;
 float:left;
 clear:both;
-}
+}*/
 
 #_latestContent{
-display:block;
-margin-right:2%;
+margin-right:1%;
 clear:both;
-line-height:2em;
-margin-bottom:2em;
+line-height:2em ;
+margin-bottom:6em;
 }
 
 #_latestContent a{
-font-size:2em;
 color:#666;
 text-decoration:none;
-font-weigth:bold;
-line-height:0.7em;
-}
+font-size:2em;
+ }
 
 table{
 border:0px;
 border-spacing:0px;
+font-size:2em;
 }
 
 table tr:nth-child(1){
@@ -164,37 +183,33 @@ margin-top:-6px;
 background-color:#000;
 }
 
-table tr:nth-last-child(n){
-text-align:center;
+table tr:nth-last-child{
+text-align:left;
 }
 table.right{
-width:30%;
+width:40%;
 display:block;
 float:right;
 margin-top: 20px;
-margin-left:20px;
-margin-right:10px;
-margin-bottom:20px;
+margin-left:3vw;
+margin-right:0vw;
 font-family : "Courier";
-font-size:2vw;
 color:#0000BB;
-font-size:1.8em;
 text-align:center;
 clear:left;
 }
 
 table.left{
-width:30%;
+width:100%;
 display:block;
 float:left;
-margin-top:20px ;
-margin-left:10px;
-margin-right:40px;
-margin-bottom:20px;
+margin-top:0px;
+margin-left:0vw;
+margin-right:3vw;
+margin-bottom:1vw;
 font-family : "Courier";
 color:#0000BB;
-font-size:1.8em;
-text-align:center;
+text-align:left;
 clear:right;
 }
 
@@ -208,17 +223,20 @@ margin-right:0px;
 margin-bottom:0px;
 font-family : "Courier";
 color:#0000BB;
-font-size:20px;
 text-align:left;
-clear:all;
+clear:both;
 border:0px;
 border-spacing:0px;
 }
 
 table.heading img{
-    width:80%;
-    margin:0px;
+    width:100%;
+    margin-left:0px;
     margin-bottom:0px;
+}
+
+table.heading td{
+  width:100%;
 }
 
 table img{
@@ -232,16 +250,16 @@ table img{
     float:right;
     background-color:#333;
     margin-top:10px;
-    padding:1.5vw;
+    padding:1.1em;
+    font-size:1.4em;
     clear:both;
-    font-size:2em;
 }
 /*iframe{
     margin-top:20px;
     margin-bottom:20px;
 }*/
 
-/*#front{
+#front{
 overflow:hidden;
 padding-bottom:56.25%;
 position:relative;
@@ -255,7 +273,7 @@ height:100%;
 width:100%;
 position:absolute;
 }
-*/
+
 .left{
 float:left;
 }
@@ -266,24 +284,24 @@ float:right;
 
 div.left{
 position:relative;
-float:left;
-font-size:2em;
-color:#0000bb;
-top:-20px;
-clear:all;
 margin-bottom:-2vw;
+float:left;
+color:#0000bb;
+font-size:2em;
+clear:both;
 }
 
 div.right{
 float:right;
-font-size:2em;
 color:#0000bb;
 margin-bottom:20px;
 margin-top:-20px;
 text-align:right;
-clear:all;
+clear:both;
 margin-right:0%;
+font-size:2em;
 }
+
 /*
     feuille de style principal
 
