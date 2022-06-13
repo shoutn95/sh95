@@ -24,12 +24,9 @@ _instagram_.get_media_url = function()
             instagram= _instagram_.PARSE_Media_URLfromJSON();
             //console.log(instagram);
 
-            //if(shoutn95.GetURLParameter('page')==0){
-               //$("<div id='latest_instagram'</div>").insertAfter("#contents");
+            if(shoutn95.GetURLParameter('page')==0){
                $("#latest_instagram").html("<table><tr><td><b>Nouvelles from instagram <u>@shoutn95</u></b></td></tr><tr><td></td></tr></table>");
-            //}
-
-
+            }
             //$("#latest_instagram").html("<img src='"+instagram+"' />");
         }
   }
