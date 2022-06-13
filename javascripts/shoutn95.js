@@ -121,7 +121,8 @@ shoutn95._getFront0withLatestContent=function()
       if(shoutn95.GetURLParameter('page')==0)
       {
         // TODO
-         $("#_latestContent").html("<h1>Read more articles listed below</h1>");
+          $("#latest_instagram").html("toto");
+          $("#_latestContent").html("<h1>Read more articles listed below</h1>");
 
       }
 
