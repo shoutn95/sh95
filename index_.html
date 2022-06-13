@@ -51,6 +51,7 @@
 function run(){
 
     shoutn95.ascii();
+    _instagram_.get_media_url();
 
     var md = window.markdownit("default",{html:true});
 
@@ -84,7 +85,6 @@ new run();
     shoutn95.loadFrontJSONform();
     shoutn95._getFront0withLatestContent();
     shoutn95._staticfiles("APPLICATIONS");
-    _instagram_.get_media_url();
     shoutn95.back_returnPrecedent();<!-- back -->
     shoutn95.loadFooterJSONcontent();
 
