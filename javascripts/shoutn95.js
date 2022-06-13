@@ -123,7 +123,7 @@ shoutn95._getFront0withLatestContent=function()
           media_url=_instagram_.get_media_url();
         {
         // TODO
-          $("#latest_instagram").html("<table><tr><td>Nouvelles from @Instagram with @shoutn95</td></tr><tr><td></td></tr><tr><td></td></tr></table");
+          $("#latest_instagram").html("<table><tr><td>Nouvelles from <a href=''>@Instagram</a> with <a href=''>@shoutn95</a></td></tr><tr><td></td></tr><tr><td></td></tr></table");
           $("#_latestContent").html("<h1>Read more articles listed below</h1>");
 
       }
