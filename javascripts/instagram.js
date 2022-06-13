@@ -27,14 +27,8 @@ _instagram_.get_media_url = function()
             {
               $("#latest_instagram").html("<table class='left'><tr><td>Nouvelles from <a href=''>#instagram</a> with <a href='https://www.instagram.com/shoutn95/'>@shoutn95</a></td></tr><tr><td><img src='"+instagram+"'/></td></tr><tr><td></td></tr></table");
             }
-            //console.log(instagram);
-
-            //if(shoutn95.GetURLParameter('page')==0){
-              // $("#latest_instagram").html("<table><tr><td><b>Nouvelles from instagram <u>@shoutn95</u></b></td></tr><tr><td></td></tr></table>");
-        }//
-            //$("#latest_instagram").html("<img src='"+instagram+"' />");
-            //return instagram;
         }
+    }
 }
 _instagram_.PARSE_Media_IDfromJSON=function()
 {
