@@ -21,6 +21,10 @@ line-height:1.2em;
     display:none;
 }
 
+h1{
+  display:none;
+}
+
 h3{
   display:none;
 }
@@ -30,9 +34,5 @@ table{
 }
 
 .tip{
-  display:none;
-}
-
-.h1{
   display:none;
 }
