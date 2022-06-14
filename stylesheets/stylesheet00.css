@@ -17,7 +17,6 @@ line-height:1.2em;
   display: none;
 }
 
-a{
-color:#000;
-
+.tip{
+  display:none;
 }
