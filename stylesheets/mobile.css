@@ -10,6 +10,8 @@ line-height:2em;
 
 caption{
 color:#666;
+display: inline;
+text-align: left;
 }
 
 .hea{
