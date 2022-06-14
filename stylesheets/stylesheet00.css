@@ -17,6 +17,10 @@ line-height:1.2em;
   display: none;
 }
 
+#footer{
+    display:none;
+}
+
 h3{
   display:none;
 }
