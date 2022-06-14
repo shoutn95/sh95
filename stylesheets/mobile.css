@@ -8,6 +8,10 @@ font-size: 1em;
 line-height:2em;
 }
 
+caption{
+color:#666;
+}
+
 .hea{
 line-height:1em;
 display:block;
