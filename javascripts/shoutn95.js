@@ -5,13 +5,6 @@ var shoutn95 = function() {}
 shoutn95.url = "https://shoutn95.github.io/sh95/";
 shoutn95.json = "init.json";
 
-
-shoutn95.ascii= function(){
-   if (shoutn95.GetURLParameter('page')==0){
-      $("#top").load("./contents/ascii.txt");
-   }
-}
-
 shoutn95.loadFront=function(video)
 {
    return("<iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
