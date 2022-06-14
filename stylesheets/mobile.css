@@ -9,12 +9,14 @@ line-height:2em;
 }
 
 caption{
+font-family: times;
 color:#666;
 display: inline;
 text-align: left;
 font-weight: normal;
 background-color: #000;
 font-size:1em;
+line-height:1em;
 }
 
 .hea{
