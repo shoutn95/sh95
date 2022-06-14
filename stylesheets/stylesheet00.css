@@ -1,3 +1,13 @@
-body{
+img{
   display:none;
+}
+
+body{
+background-color:#222;
+color:#666;
+font-family:"Courier New";
+margin:0px;
+margin-left:0px;
+font-size: 1em;
+line-height:2em;
 }
