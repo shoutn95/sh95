@@ -15,7 +15,7 @@ _instagram_.get_media_url = function()
   id_media.onload = function() {
 
     picture_id=_instagram_.PARSE_Media_IDfromJSON();
-    picture_url=_instagram_.url0+picture_id+"?fields=media_url,caption&access_token="+_instagram_.access_token;
+    picture_url=_instagram_.url0+picture_id+"?fields=media_url,caption,permalink&access_token="+_instagram_.access_token;
 
         media_url = new XMLHttpRequest();
         media_url.open("GET",picture_url);
@@ -23,10 +23,11 @@ _instagram_.get_media_url = function()
         media_url.onload=function() {
             instagram= _instagram_.PARSE_Media_URLfromJSON();
             caption = _instagram_._captionfromJSON();
+            permalink = _instagram_._permalinkfromJSON();
 
             if (shoutn95.GetURLParameter('page')==0)
             {
-              $("#latest_instagram").html("<table class='left'><tr><td>Nouvelles from <a href=''>#instagram</a><br /> with <a href='https://www.instagram.com/shoutn95/'>@shoutn95</a><br /><caption>"+caption.substring(0,78)+"(...)</caption></td></tr><tr><td><img src='"+instagram+"'/></td></tr><tr><td></td></tr></table");
+              $("#latest_instagram").html("<table class='left'><tr><td>Nouvelles from <a href=''>#instagram</a><br /> with <a href='https://www.instagram.com/shoutn95/'>@shoutn95</a><br /><caption>"+caption.substring(0,78)+"(...)</caption></td></tr><tr><td><a href='"+permalink+"' title='"+caption+"'><img src='"+instagram+"'/></a></td></tr><tr><td></td></tr></table");
             }
         }
     }
@@ -49,4 +50,9 @@ _instagram_.PARSE_Media_URLfromJSON=function()
 _instagram_._captionfromJSON=function()
 {
   return Object.values(JSON.parse(media_url.response))[1];
+}
+
+_instagram_._permalinkfromJSON=function()
+{
+  return Object.values(JSON.parse(media_url.response))[2];
 }
