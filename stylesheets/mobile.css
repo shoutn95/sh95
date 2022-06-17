@@ -310,6 +310,33 @@ margin-right:0%;
 font-size:2em;
 }
 
+a.tooltip {
+       border-bottom: 1px dashed;
+       text-decoration: none;
+}
+
+a.tooltip:hover {
+       cursor: crosshair;
+       position: relative;
+     }
+a.tooltip span {
+       display: none;
+     }
+a.tooltip:hover span {
+  font-size: 1em;
+       border: #666 2px dotted;
+       padding: 5px 20px 5px 5px;
+       display: inline;
+       z-index: 100;
+       background: #000;
+       left: 0px;
+       margin: 15px;
+       width: 100%¨;
+       position: absolute;
+       top: 0px;
+       text-decoration: none;
+}
+
 /*
     feuille de style principal
 

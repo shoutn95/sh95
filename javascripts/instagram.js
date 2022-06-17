@@ -27,7 +27,7 @@ _instagram_.get_media_url = function()
 
             if (shoutn95.GetURLParameter('page')==0)
             {
-              $("#latest_instagram").html("<table class='left'><tr><td>Nouvelles from <a href=''>#instagram</a><br /> with <a href='https://www.instagram.com/shoutn95/'>@shoutn95</a><br /><caption>"+caption.substring(0,78)+"(...)</caption></td></tr><tr><td><a href='"+permalink+"' title='"+caption+"'><img src='"+instagram+"'/></a></td></tr><tr><td></td></tr></table");
+              $("#latest_instagram").html("<table class='left'><tr><td>Nouvelles from <a href=''>#instagram</a><br /> with <a href='https://www.instagram.com/shoutn95/'>@shoutn95</a><br /><caption>"+caption.substring(0,78)+"(...)</caption></td></tr><tr><td><a href='"+permalink+"' title='"+permalink+"' class='tooltip'><span>"+permalink+"</span><img src='"+instagram+"'/></a></td></tr><tr><td></td></tr></table");
             }
         }
     }
