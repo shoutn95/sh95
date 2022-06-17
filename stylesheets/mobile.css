@@ -323,7 +323,8 @@ a.tooltip span {
        display: none;
      }
 a.tooltip:hover span {
-  font-size: 1em;
+  line-height: 1em;
+        font-size: 0.5em;
        border: #666 2px dotted;
        padding: 5px 20px 5px 5px;
        display: inline;
@@ -333,7 +334,7 @@ a.tooltip:hover span {
        margin: 15px;
        width: 100%¨;
        position: absolute;
-       top: 0px;
+       top: -50px;
        text-decoration: none;
 }
 
