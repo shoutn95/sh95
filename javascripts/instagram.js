@@ -4,7 +4,7 @@ var _instagram_ = function() {}
 _instagram_.url = "https://graph.instagram.com/me/media/";
 _instagram_.url0 ="https://graph.instagram.com/";
 _instagram_.id_app = "907880253944940";
-_instagram_.access_token ="IGQVJWMXlYRGRmMGdiUjkyVEo3YUxjRXAydVdiRUxXUGpKVG5Da1c4R1BZAYTRmRkxDT2ZALN0FaVXpCeldEczBiNUctSVk0bHdjbFU4ZA1lLbDJIR3NDVzk2X25lV2l5Q2h1Q2hmS1dLbFl1MFktOF9YSwZDZD";
+_instagram_.access_token ="e269a4724711537871d84fec2b9953c9";
 
 
 _instagram_.get_media_url = function()
