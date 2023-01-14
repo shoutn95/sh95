@@ -3,8 +3,8 @@ var _instagram_ = function() {}
 
 _instagram_.url = "https://graph.instagram.com/me/media/";
 _instagram_.url0 ="https://graph.instagram.com/";
-_instagram_.id_app = "907880253944940";
-_instagram_.access_token ="e269a4724711537871d84fec2b9953c9";
+_instagram_.id_app = "738367474525800";
+_instagram_.access_token ="af8a5b8930fc32bc18e2ffcf5f74d4";
 
 
 _instagram_.get_media_url = function()
