@@ -3,12 +3,13 @@ var _instagram_ = function() {}
 
 _instagram_.url = "https://graph.instagram.com/me/media/";
 _instagram_.url0 ="https://graph.instagram.com/";
-_instagram_.id_app = "537707775019197";
-_instagram_.access_token ="IGQVJXelBXTWVZAQzRDUWdadFpnOWUxRHhhNnBRcDNMMktxX3dUU2FIYlh2LW5SM09iZAHJTMF9jTFVxVUZA3VHZABU3lmaHlzbk5JM09Hb1Ywa3hXUzhaRVZA4U01XNUpFVkNiMFdWU1o5MWJwV0ZABSjVRMAZDZD";
+_instagram_.id_app = "1151956242138651";
+_instagram_.access_token ="IGQVJWTS10V0dGRWNLSllza3pvcEZADM1ctcUx0TUVONkljQmxGM2MwWWh0V1pGWWJQcDBGS1VSWndxcVVHRXBhZAzdFd2xGckg4Vy0xV2F6Tkx4U29yUF9pSW9CQ21lZAm5LcWJSMk0zOC1NLUtxeWdBcAZDZD";
 
 
 _instagram_.get_media_url = function()
 {
+
   id_media = new XMLHttpRequest();
   id_media.open("GET",this.url+"?fields="+this.id_app+"&access_token="+this.access_token,true);
   id_media.send(obj);
