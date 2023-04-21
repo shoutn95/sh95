@@ -1,0 +1,8 @@
+## Die and dices...
+
+### I have been used readding adventure books which enable interactive immersion through a "playable" storybook or "<i>games book</i>". Your personal character have initial capabilities and become much more able through particulars moments and your particular way to achieve chapters with a randomly die. There is no particular order to achieve your story. A simple chapter can make your story ending, an another one for getting a new artifact, meeting friendly personage or an enemy. You should learn with friends but you would fight against enemies. Paragraph after paragraph you will make your personal story in a pre combined possibilities that you aimed with a die. Reading somehow becomes a "playable" challenge.
+
+### <i>Les livres dont vous êtes le héros</i> are related now with R.P.G. video-games where we create an initial character as player. Performances and skills will increase while "playing" the story, making choices and combating like "<i>war games</i>". These took place in the past with AD&D;Dungeons and Dragons. 
+
+### The lonely wolf...
+### As a player you have the liberty to choice with acting in particular paths from the beginning. Your choices making the difference between game books and interactive video-games, from dices to "intelligentsia" related with choices you can make with the context ; somehow your are mirrored with the responding environment, like shades with lights.

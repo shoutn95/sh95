@@ -1,11 +1,18 @@
 body{
-background-color:#222;
+background-color:#333;
 color:#666;
 font-family:"Courier New";
 margin:0px;
 margin-left:0px;
 font-size: 1em;
 line-height:2em;
+}
+
+caption{
+color:#666;
+display: inline;
+text-align: left;
+background-color: #000;
 }
 
 .hea{
@@ -69,7 +76,8 @@ font-weight:normal;
 }
 
 #page{
-    width:100%;
+  margin-left: auto;
+  margin-right: auto;
     clear:both;
 }
 
@@ -149,7 +157,7 @@ height:200px;
 
 #footer a{
 font-size:2em;
-background-color:#333;
+background-color:#222;
 padding:2vw;
 }
 
@@ -203,13 +211,13 @@ table.left{
 width:100%;
 display:block;
 float:left;
-margin-top:10px;
+margin-top:0px;
 margin-left:0vw;
 margin-right:3vw;
 margin-bottom:1vw;
 font-family : "Courier";
 color:#0000BB;
-text-align:center;
+text-align:left;
 clear:right;
 }
 
@@ -248,7 +256,7 @@ table img{
 #_backRetu{
     display:block;
     float:right;
-    background-color:#333;
+    background-color:#222;
     margin-top:10px;
     padding:1.1em;
     font-size:1.4em;
@@ -300,6 +308,32 @@ text-align:right;
 clear:both;
 margin-right:0%;
 font-size:2em;
+}
+
+a.tooltip {
+       text-decoration: none;
+}
+
+a.tooltip:hover {
+       cursor: crosshair;
+       position: relative;
+     }
+a.tooltip span {
+       display: none;
+     }
+a.tooltip:hover span {
+  line-height: 1em;
+        font-size: 0.5em;
+       padding: 5px 20px 5px 5px;
+       display: inline;
+       z-index: 100;
+       background: #000;
+       left: 0px;
+       margin: 15px;
+       width: 100%¨;
+       position: absolute;
+       top: -50px;
+       text-decoration: none;
 }
 
 /*

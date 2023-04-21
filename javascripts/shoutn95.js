@@ -2,22 +2,12 @@
 obj=null;
 var shoutn95 = function() {}
 
-shoutn95.url = "https://shoutn95.github.io/sh95/"
+shoutn95.url = "https://shoutn95.github.io/sh95/";
 shoutn95.json = "init.json";
-
-
-shoutn95.ascii= function(){
-
-   if (shoutn95.GetURLParameter('page')==0){
-
-      $("#top").load("./contents/ascii.txt");
-
-   }
-}
 
 shoutn95.loadFront=function(video)
 {
-   return("<div class='video-wrap'><div class='video'><div class='playerembed'><iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen gesture='media'></iframe></div></div></div>");
+   return("<iframe  width='560' height='315' src='https://www.youtube.com/embed/"+ video +"'  frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
 }
 
 shoutn95.createlinksToContent=function(contents){
@@ -42,13 +32,14 @@ shoutn95.loadFrontJSONform=function()
 
    if (shoutn95.GetURLParameter('page')==0)
    {
+
       front_ = new XMLHttpRequest();
       front_.open("GET",this.json,true);
       front_.send(null);
       front_.onload = function() {
-        video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());
-        $("<div id='front'></div>").insertBefore("#top");
-        $("#front").html(shoutn95.loadFront(video));
+      video = shoutn95._getRandomElementFromJSON(shoutn95.parseFrontJSON());
+      $("<div id='front'></div>").insertBefore("#top");
+      $("#front").html(shoutn95.loadFront(video));
       }
    }
 }
@@ -122,11 +113,14 @@ shoutn95._getFront0withLatestContent=function()
 
       if(shoutn95.GetURLParameter('page')==0)
       {
-         $("#_latestContent").html("<h1>Read more articles listed below</h1>");
+          //media_url=_instagram_.get_media_url();
+        // TODO
+          //$("#latest_instagram").html("<table><tr><td>Nouvelles from <a href=''>@Instagram</a> with <a href=''>@shoutn95</a></td></tr><tr><td></td></tr><tr><td></td></tr></table");
+          $("#_latestContent").html("<h1>Read more articles listed below</h1>");
 
       }
 
-   }
+    }
 
 }
 
